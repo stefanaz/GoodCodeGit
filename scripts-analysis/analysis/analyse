@@ -1,0 +1,48 @@
+#!/bin/sh
+#
+# analyse
+#
+# input variables
+#
+# $1: version of data (subdir)
+# $2: name of template card
+#
+if [ -z $1 ]; then
+    echo ""
+    echo "Please give data-version and template card"
+    echo ""
+    echo "Usage: analyse [version] [template]"
+    echo ""
+    exit
+fi
+if [ -z $2 ]; then
+    echo ""
+    echo "Please give data-version and template card"
+    echo ""
+    echo "Usage: analyse [version] [template]"
+    echo ""
+    exit
+fi
+
+# gen date
+export date=`date +%y%m%d_%H%M%S`
+
+# recompile analysis
+# echo "recompile analysis"
+# recompile html
+
+# link project
+echo "link $1 for date $date"
+./link $1 $date
+
+# generate cards
+echo "generate cards for $1 using template $2"
+./generate_cards $1 $2
+
+# execute analysis
+echo "execute analysis for $1 for date $date"
+./execute $1 $date
+
+# make special pictures
+echo "make special pictures for $1 for date $date"
+./generate_pictures_special $1 $date

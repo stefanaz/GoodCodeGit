@@ -1,0 +1,42 @@
+#!/bin/sh
+#
+# execute analyses
+#
+# input variables
+#
+# $1: version of data (subdir)
+# $2: date (if date is not given, date is created)
+#
+if [ -z $1 ]; then
+    echo ""
+    echo "Please give data-version"
+    echo ""
+    echo "Usage: execute [version]"
+    echo ""
+    exit
+fi
+#
+if [ -z $2 ]; then
+    export date=`date +%y%m%d_%H%M%S`
+else
+    export date=$2
+fi
+#
+# generated variables
+#
+export outputpath=`pwd`
+export outputname=`echo "$outputpath/$1_output_$date.root"`
+#
+for dir in data mc
+do
+  cd $dir
+  echo "Analysing $dir"
+  ./execute $1 $outputname
+  cd ..
+done
+
+# link outputfile to output.root
+rm -f output.root
+ln -s $outputname output.root
+rm -f $1_output.root
+ln -s $outputname $1_output.root

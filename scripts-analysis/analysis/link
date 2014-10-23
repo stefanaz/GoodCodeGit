@@ -1,0 +1,31 @@
+#!/bin/sh
+#
+# link new project
+#
+# input variables
+#
+# $1: version of data (subdir)
+# $2: date (if date is not given, date is created)
+#
+#
+if [ -z $1 ]; then
+    echo ""
+    echo "Please give data-version and date"
+    echo ""
+    echo "Usage: link [version] [date]"
+    echo ""
+    exit
+fi
+#
+if [ -z $2 ]; then
+    export date=`date +%y%m%d_%H%M%S`
+else
+    export date=$2
+fi
+#
+for dir in data mc
+do
+  cd $dir
+  ./link $1 $date
+  cd ..
+done

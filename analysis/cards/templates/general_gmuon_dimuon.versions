@@ -1,0 +1,30 @@
+1_0_0: general_gmuon_dimuon_et-et10_7dot5_withtrigger3_ccjpsiout_withjpsireweight_withDIS_witheffi_weffitrigger_TAKEon_ptgt1_5.cards (up to date card 050525, 7dot5 is WRONG! it is 8.0!, by the way, the cardname does exist here only as documentation. There is no such card, just the 1_0_0 one)
+1_0_1: general_gmuon_dimuon_et-et10_7dot5_withtrigger3_ccjpsiout_withjpsireweight_withDIS_witheffi_weffitrigger_TAKEoff_ptgt1_5.cards (up to date card 050525, 7dot5 is WRONG! it is 8.0!)
+1_0_2: general_gmuon_dimuon_et-et10_7dot5_withtrigger3_ccjpsiout_withjpsireweight_withDIS_witheffi_weffitrigger_TAKEon_ptcut_prelimstyle_true_prelim.cards (up to date card 050529, 7dot5 is WRONG! it is 8.0!)
+1_1_0: as 1_0_0 but now with tight and loose efficiency files.
+
+2_0_0: as 1_1_0, but with 0.75 / 1.5 muqual selection, to calculate the total xsec with all improvements (also used old visible true cuts in code)
+2_0_1: as 2_0_0, but with cal_et (mode 3) > 0 (for motivation of cut at 8.0) 
+2_0_2: as 2_0_0, but with cal_et (mode 3) > 0 (for motivation of cut at 8.0) and mu_et_fraction_cut neutral  
+2_0_3: as 2_0_0, but with muqual > 0, up to date background sample job, 050720.
+2_0_4: as 2_0_0, but disabled efficiency correction and trigger correction 050908.
+2_0_5: as 2_0_0, but deltaeta_cut neutral (deltaeta<999999999.0) 050913.
+2_1_0: as 2_0_0, but with new efficiency files (060208_1: loose and 060208_2: tight) from herwig jpsi and Grape BH, also adjusted ETAUL/LOW to align with efficiency-file value (from 1.3 to 1.2)
+2_1_1: as 2_0_0, but with new efficiency files (060317_1: loose and 060317_2: tight) from herwig jpsi, Igor jpsi and Grape BH, also adjusted ETAUL/LOW to align with efficiency-file value (from 1.3 to 1.2)
+
+2_2_1: as 2_1_1, but with muon selection for differential xsecs. Also used differential true def. in code (evtake on - as a test :o) ).
+
+3_0_0: as 1_0_0, but, to prod. minis: no jpsirewei, no MUTAKE, no trigger, no triggerefficorr, cut on cal_et plain > 7, no muefficorr, all mus > 0.75, no deltaeta cut, no ptasymcut, no etfraction cut, no rejection of jpis in charm 
+3_0_1: as 3_0_0, for evlist
+3_0_2: as 3_0_0, for ntuple
+
+4_0_0: to generate evlist for mu effi det. (similar to Oli's gmuon_selection_scenario_8_6_evlist.template, just with SP1 active and exclude Mamma OFF)
+4_0_1: as 4_0_0, just to generate minis from 4_0_0 evlist
+4_0_2: as 4_0_0, to determine LOOSE effi. (similar to Oli's gmuon_selection_scenario_8_6_evlist.template, just with SP1 active and exclude Mamma OFF)
+4_0_3: as 4_0_2, with harder Anti-Cosmic cuts
+4_0_4: as 4_0_3, but without SP1 (OFF!)
+4_0_5: as 4_0_3, but without BMu/FMuTake
+4_1_0: as 4_0_0, but TIGHT preselection and to run on the minis generated during the LOOSE running in 4_0_0/1
+4_1_1: as 4_1_0, but harder Anti-Cosmic cuts
+4_1_2: as 4_1_1, but without SP1 (OFF!)
+4_1_3: as 4_1_1, but without BMu/FMuTake

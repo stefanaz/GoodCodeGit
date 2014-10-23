@@ -1,0 +1,20 @@
+#!/bin/sh
+#
+# execute analyses
+#
+# input variables
+#
+# $1: path and name of merged histogram-file
+#
+if [ -z $1 ]; then
+    echo ""
+    echo "Please give merged histogram-file"
+    echo ""
+    echo "Usage: execute [outputname]"
+    echo ""
+    exit
+fi
+#
+nice -20 analysis.exe mc_lf_dir1.cards
+merger.exe MERGE histos.root $1 mc/96p-97p/lf/dir1
+

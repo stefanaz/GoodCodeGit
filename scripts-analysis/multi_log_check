@@ -1,0 +1,18 @@
+#!/bin/sh
+#
+# multi_log_check
+#
+# $Author: gutsche $
+# $Date: 2004/02/19 13:40:44 $
+# $Revision: 1.1 $
+#
+# looks for error in all job log files in current directory discarding following error messages
+#
+# 1: "value out of range"
+# 2: "error in s\/r trprop"
+# 3: "Error code    =            0"
+# 4: "gufld"
+# 5: "track not in zufo common"
+# 6: "HESBdC Error      11"
+#
+find . -name '*0???.log' -exec grep -i -H -n 'error' {} \; | grep -i -v 'value out of range' | grep -i -v 'error in s\/r trprop' | grep -i -v 'Error code    =            0' | grep -i -v 'gufld' | grep -i -v 'track not in zufo common' | grep -i -v 'HESBdC Error      11'

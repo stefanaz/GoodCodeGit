@@ -1,0 +1,6 @@
+*.[oa]
+*.exe
+*~
+/datadir
+/anadir
+*.txt

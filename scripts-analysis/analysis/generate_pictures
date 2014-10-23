@@ -1,0 +1,46 @@
+#!/bin/sh
+#
+# generate pictures
+#
+# input variables
+#
+# $1: versionversion of data (subdir)
+# $2: date (if date is not given, date is created)
+#
+#
+if [ -z $1 ]; then
+    echo ""
+    echo "Please give data-version"
+    echo ""
+    echo "Usage: generate_pictures [version]"
+    echo ""
+    exit
+fi
+#
+if [ -z $2 ]; then
+    export date=`date +%y%m%d_%H%M%S`
+else
+    export date=$2
+fi
+#
+echo "generate special gallery pictures"
+picturemaker.exe -histogram-file $1_output.root -dir pictures/$1_$date/special SPECIAL
+#
+echo "generate gallery"
+picturemaker.exe -histogram-file $1_output.root -dir pictures/$1_$date/Histograms GALLERY
+#
+echo "generate PS2"
+picturemaker.exe -histogram-file $1_output.root -dir pictures/$1_$date/Histograms -output-file all.ps PS
+gzip -9 $GUTANADIR/pictures/$1_$date/Histograms/all.ps
+picturemaker.exe -histogram-file $1_output.root -dir pictures/$1_$date/Histograms -output-file all_log.ps LOGPS
+gzip -9 $GUTANADIR/pictures/$1_$date/Histograms/all_log.ps
+#
+echo "link"
+cd $GUTANADIR/pictures
+rm -rf Histograms
+ln -s $1_$date/Histograms Histograms
+rm -f gallery.html
+ln -s $1_$date/gallery.html gallery.html
+rm -rf $1
+ln -s $1_$date $1 
+cd $GUTANADIR

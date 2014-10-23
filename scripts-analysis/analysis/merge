@@ -1,0 +1,41 @@
+#!/bin/sh
+#
+# merge histogram-files
+#
+# input variables
+#
+# $1: version of data (subdir)
+#
+#
+if [ -z $1 ]; then
+    echo ""
+    echo "Please give data-version"
+    echo ""
+    echo "Usage: merge [version]"
+    echo ""
+    exit
+fi
+#
+# variables
+export outputpath=`pwd`
+export date=`date +%y%m%d_%H%M%S`
+export outputname=`echo "$outputpath/$1_output_$date.root"`
+#
+for dir in data mc
+do
+  echo "Merging $dir"
+  cd $dir
+  ./merge $1 $outputname
+  cd ..
+done
+#
+# link outputfile to output.root
+rm -f output.root
+ln -s $outputname output.root
+rm -f $1_output.root
+ln -s $outputname $1_output.root
+#
+# merge histograms internal
+echo "Merge output.root internally"
+merger.exe ADD $outputname
+

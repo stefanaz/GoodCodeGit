@@ -1,0 +1,19 @@
+#!/bin/sh
+#
+# recompile
+#
+# $Author: gutsche $
+# $Date: 2003/05/08 13:32:37 $
+# $Revision: 1.7 $
+#
+# $1: DEBUG=ON for debug compilation
+
+# generating log file
+export my_set=`date +_%y%m%d_%H%M%S`
+export my_name=`echo "recompile_output$my_set.txt"`
+touch $GUTCODEDIR/log/$my_name
+rm -f $GUTCODEDIR/log/latest.txt
+ln -s -f $GUTCODEDIR/log/$my_name $GUTCODEDIR/log/latest.txt
+
+# starting script with logfile
+time $GUTCODEDIR/scripts-analysis/project_recomp $1 > $GUTCODEDIR/log/$my_name 2>&1

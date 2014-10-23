@@ -1,0 +1,41 @@
+#!/bin/sh
+#
+# link new project
+#
+# input variables
+#
+# $1: versionversion of data (subdir)
+# $2: date (if date is not given, date is created)
+#
+#
+if [ -z $1 ]; then
+    echo ""
+    echo "Please give data-version"
+    echo ""
+    echo "Usage: link [version]"
+    echo ""
+    exit
+fi
+#
+if [ -z $2 ]; then
+    export date=`date +%y%m%d_%H%M%S`
+else
+    export date=$2
+fi
+#
+for ver in 99p-00p 98e-99e 96p-97p 03p-04p 03p-04p_ztt
+do
+   for dir in inc dir dirrap res exgamma exproton dir_2 res_2 exgamma_2 exproton_2 dimuon_dirres  dimuon_exgamma  dimuon_exproton
+  do
+    if [ -d $GUTDATADIR/$1/mc/c/$ver/$dir ]; then
+      newname=`echo "$1_$date"`
+      cd $ver/$dir
+      cp -pr template $newname
+      rm -rf $1
+      ln -s $newname $1
+      cd $1/data
+      ln -s $GUTDATADIR/$1/mc/c/$ver/$dir/data/*.root .
+      cd ../../../..
+    fi
+  done
+done

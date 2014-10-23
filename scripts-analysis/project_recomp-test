@@ -1,0 +1,61 @@
+#!/bin/sh
+#
+# project_comp
+#
+# $Author: gutsche $
+# $Date: 2004/06/13 08:23:30 $
+# $Revision: 1.2 $
+#
+# $1: DEBUG=ON for debug compilation
+
+echo "**************************************************"
+echo "Compiling Analysis"
+echo "**************************************************"
+echo ""
+echo ""
+cd $GUTCODEDIR/libraries-test/GutLib/cmd
+echo "**************************************************"
+echo "Compiling GutLib"
+echo "**************************************************"
+make checkdirs TEST=on 
+make cleanall TEST=on 
+make all TEST=on $1
+echo ""
+echo "**************************************************"
+echo "Finished GutLib"
+echo "**************************************************"
+echo ""
+echo ""
+cd $GUTCODEDIR/analysis-test/cmd
+echo "**************************************************"
+echo "Compiling analysis"
+echo "**************************************************"
+make checkdirs TEST=on 
+make cleanall TEST=on 
+make all TEST=on $1
+echo ""
+echo "**************************************************"
+echo "Finished analysis"
+echo "**************************************************"
+echo ""
+echo ""
+
+
+for dir in zsmsm-release cardmaker logchecker merger picturemaker
+do
+  echo "**************************************************"
+  echo "Compiling $dir "
+  echo "**************************************************"
+  cd $GUTCODEDIR/programs-test/$dir/cmd
+  make checkdirs TEST=on 
+  make cleanall TEST=on 
+  make all TEST=on $1
+  echo ""
+  echo "**************************************************"
+  echo "Finished $dir "
+  echo "**************************************************"
+  echo ""
+  echo ""
+done
+
+cd $GUTCODEDIR

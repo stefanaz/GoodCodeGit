@@ -1,0 +1,70 @@
+#!/bin/sh
+#
+# project_comp
+#
+# $Author: roloff $
+# $Date: 2009/07/31 09:59:56 $
+# $Revision: 1.5 $
+#
+# $1: DEBUG=ON for debug compilation
+
+echo "**************************************************"
+echo "Compiling Analysis"
+echo "**************************************************"
+echo ""
+echo ""
+cd $GUTCODEDIR/libraries/GutLib/cmd
+echo "**************************************************"
+echo "Compiling GutLib"
+echo "**************************************************"
+# make checkdirs
+# make cleanall
+# make all $1
+make -j 2 checkdirs
+make -j 2 cleanall
+make -j 2 all $1
+echo ""
+echo "**************************************************"
+echo "Finished GutLib"
+echo "**************************************************"
+echo ""
+echo ""
+cd $GUTCODEDIR/analysis/cmd
+echo "**************************************************"
+echo "Compiling analysis"
+echo "**************************************************"
+# make checkdirs
+# make cleanall
+# make all $1
+make -j 2 checkdirs
+make -j 2 cleanall
+make -j 2 all $1
+echo ""
+echo "**************************************************"
+echo "Finished analysis"
+echo "**************************************************"
+echo ""
+echo ""
+
+
+for dir in zsmsm-release cardmaker logchecker merger picturemaker
+do
+  echo "**************************************************"
+  echo "Compiling $dir "
+  echo "**************************************************"
+  cd $GUTCODEDIR/programs/$dir/cmd
+  # make checkdirs
+  # make cleanall
+  # make all $1
+  make -j 2 checkdirs
+  make -j 2 cleanall
+  make -j 2 all $1
+  echo ""
+  echo "**************************************************"
+  echo "Finished $dir "
+  echo "**************************************************"
+  echo ""
+  echo ""
+done
+
+cd $GUTCODEDIR

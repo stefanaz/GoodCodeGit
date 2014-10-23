@@ -1,0 +1,892 @@
+C ================================================================
+C ================================================================
+C
+C                Ingo's Analysis Control Card for GAnalysis
+C
+C general_gmuon_dimuon_withtrigger_muqual_eq_6.cards
+C
+C $Author: ibloch $
+C $Date: 2004/12/09 15:46:37 $
+C $Revision: 1.2 $
+C
+C ================================================================
+C ================================================================
+C                                                                            
+C
+C ================================================================
+C general options
+C ================================================================
+C
+C input directory, make sure that only root files with same class 
+C structure are in that directory
+GENERAL-INPUTDIR /data/zenith214a/ibloch/ANALYSIS/firsttest/data
+C
+C output path
+GENERAL-OUTPUTPATH .
+C
+C output root filename
+GENERAL-OUTPUTFILE histos.root
+C
+C start entry of chain loop
+GENERAL-STARTENTRY 0
+C
+C end entry of chain loop , (-1) stands for all events
+GENERAL-ENDENTRY -1
+C
+C after number of processed events output is generated
+C if 0, no output for processed events is generated
+GENERAL-EVENTOUT 1000
+C
+C luminosity corresponding to data sample
+GENERAL-LUMINOSITY 66.5
+C
+C minimal runnr at which processing of events is started (.ge.)
+GENERAL-MINIMALRUNNR -999999
+C
+C maximal runnr after which processing of events is stopped (.le.)
+GENERAL-MAXIMALRUNNR 999999
+C
+C activate generation of eventlist (to generate small ntuple in following job)
+C MUST be done before trying to write small ntuple!!
+GENERAL-DOEVENTLIST OFF
+C
+C activate generation of small ntuple (after eventslist is present)
+C you MUST have eventlists in all datadirectories!
+C (if mode DOEVENTLIST is active this is automatically set to OFF in the code)
+GENERAL-WRITEEVENTLISTNTUPLE OFF
+C
+C MC flag
+GENERAL-MC OFF
+C
+C ligh flavour MC flag
+GENERAL-LFMC OFF
+C
+C bbbar MC flag
+GENERAL-BBBARMC OFF
+C
+C HERWIG jpsi MC flag
+GENERAL-JPSIHRWGMC OFF
+C
+C HERWIG jpsi MC reweight flag - if activated, all events will be reweighted
+C according to this formula (ZN 03-004): 
+C fEventWeight = TMath::Exp( 0.075*(gData->Getmc_pt()*gData->Getmc_pt()) );
+C To use automatically in datadir tree call cardmaker with mode ANALUMIMCJPSIHRWG
+C and activate card below in your template.
+GENERAL-DOJPSIREWEIGHT ON
+C
+C reject hfl in lf mc samples
+GENERAL-REJECTHFL ON
+C
+C activate general FMCK block 
+GENERAL-FMCK OFF
+C
+C activate own MC block in root-trees
+GENERAL-OWNMC OFF
+C
+C activate own MC jets block in root-trees
+GENERAL-OWNJETSMC OFF
+C
+C MC run period
+GENERAL-RUNPERIODMC 03p-04p
+C
+C GMuon selection flag (ON/OFF)
+GENERAL-GMUON ON
+C
+C Produce Efficiency Plots flag (ON/OFF)
+C WARNING: when this switch is active the dimuon selection 
+C is in or with "any MV muon"!
+GENERAL-DOEFFICIENCY OFF
+C
+C select only runs which are selected by evtake
+GENERAL-EVTAKE OFF
+C
+C select only runs which are selected by mvdtake
+GENERAL-MVDTAKE OFF
+C
+C take only first valid muon for weight determination
+GENERAL-WEIGHTFIRSTMUON OFF
+C
+C mini ntuple mode, switch off lumi calculation from evtake and mvdtake info (ON/OFF)
+GENERAL-MININTUPLE OFF
+C
+C read files from dcache
+GENERAL-DCACHE OFF
+C
+C cut on true Q2 for MC cuts
+GENERAL-Q2MCCUT 999999.99
+C
+C low cut on true y for MC cuts
+GENERAL-YLOWMCCUT -999999.99
+C
+C high cut on true y for MC cuts
+GENERAL-YHIGHMCCUT 999999.99
+C
+C ================================================================
+C machine options
+C ================================================================
+C
+C positron run ON/OFF (is set in the code by the runperiod)
+MACHINE-POSITRON ON
+C
+C lepton energy
+MACHINE-LEPTONENERGY 27.5
+C
+C lower proton energy (the proton energy is set by a check of the runperiod)
+MACHINE-PROTONENERGYLOW 820.0
+C
+C higher proton energy (the proton energy is set by a check of the runperiod)
+MACHINE-PROTONENERGYHIGH 920.0
+C
+C ================================================================
+C lists options
+C ================================================================
+C
+C enable list of processed events
+LISTS-PROCEVENTS OFF
+C
+C enable error list
+LISTS-ERRORLIST ON
+C
+C enable selection list
+LISTS-SELECTIONLIST ON
+C
+C enable output list
+LISTS-OUTPUTLISTGENERAL OFF
+C
+C enable output list for general stuff
+LISTS-OUTPUTLISTGGENERAL OFF
+C
+C enable output list for run infos
+LISTS-OUTPUTLISTRUNS OFF
+C
+C enable output list for muons
+LISTS-OUTPUTLISTMUONS OFF
+C
+C enable output list for cal
+LISTS-OUTPUTLISTCAL OFF
+C
+C enable output list for bac
+LISTS-OUTPUTLISTBAC OFF
+C
+C enable output list for jets
+LISTS-OUTPUTLISTJETS OFF
+C
+C enable output list for mjmatchs
+LISTS-OUTPUTLISTMJMATCHS OFF
+C
+C enable output list for tjmatchs
+LISTS-OUTPUTLISTTJMATCHS OFF
+C
+C enable output list for sinistra
+LISTS-OUTPUTLISTSINISTRA OFF
+C
+C enable output list for tracks
+LISTS-OUTPUTLISTTRACKS OFF
+C
+C enable output list for vertex
+LISTS-OUTPUTLISTVERTEX OFF
+C
+C enable output list for zufo
+LISTS-OUTPUTLISTZUFO OFF
+C
+C enable output list for mc
+LISTS-OUTPUTLISTMC OFF
+C
+C enable output list for dimuon
+LISTS-OUTPUTLISTDIMUONS ON
+C
+C write out info of selected events
+LISTS-OUTPUTSELECTED ON
+C
+C write out info of all events
+LISTS-OUTPUTALL OFF
+C
+C ================================================================
+C masses
+C ================================================================
+C
+C muon mass in GeV
+MASS-MUON 0.105658357
+C
+C ================================================================
+C ggeneral options
+C ================================================================
+C
+C general switch for generation of general histos
+GGENERAL-GENERAL ON
+C
+C general switch for generation of control histos
+GGENERAL-CONTROL ON
+C
+C ================================================================
+C mc options
+C ================================================================
+C
+C general switch for generation of general histos
+MC-GENERAL ON
+C
+C general switch for generation of control histos
+MC-CONTROL ON
+C
+C ================================================================
+C trigger options
+C ================================================================
+C
+C general switch for generation of general histos
+TRIGGER-GENERAL ON
+C
+C general switch for generation of control histos
+TRIGGER-CONTROL ON
+C
+C EXO TLT bits for 96p-00p (bit coded pattern, exo1 means value=2)
+C exo11 and exo12 means 6144
+TRIGGER-TLTEXO96p00p 0
+C
+C HPP TLT bits for 96p-00p (bit coded pattern, hpp1 means value=2)
+C hpp14 means 16384
+TRIGGER-TLTHPP96p00p 16384
+C
+C HFL TLT bits for 96p-00p (bit coded pattern, hfl1 means value=2)
+C hfl1 means 2
+C 15410 means HFL1,4,5,10,11,12,13
+TRIGGER-TLTHFL96p00p 15410
+C
+C HFL TLT bits for 99p-00p (bit coded pattern, hfl1 means value=2)
+C hfl1 means 2
+TRIGGER-TLTHFL99p00p 0
+C
+C HFL TLT bits for 03p-04p (bit coded pattern, hfl1 means value=2)
+C hfl5,hfl13 and hfl25 means 33562656
+TRIGGER-TLTHFL03p04p 0
+C
+C DIS TLT bits for 96p-00p (bit coded pattern, dis1 means value=2)
+C dis1 means 2
+C dis27 means 134217728
+TRIGGER-TLTDIS96p00p 134217728
+C
+C MUO TLT bits for 96p-00p (bit coded pattern, muo1 means value=2)
+C muo3 means 8
+C 20 means MUO1,2,4 and 3
+TRIGGER-TLTMUO96p00p 30
+C
+C MUO TLT bits for 03p-04p (bit coded pattern, muo1 means value=2)
+C 
+TRIGGER-TLTMUO03p04p 0
+C
+C acivate trigger efficiency correction
+TRIGGER-EFFICIENCYCORRECTION OFF
+C
+C efficiency correction factor for FLT 10,11
+TRIGGER-FLT1011 1.0
+C
+C efficiency correction factor for FLT 42,44,51,52,53,54 (FORWARD)
+TRIGGER-FLT4254FORWARD 1.0
+C
+C efficiency correction factor for FLT 42,44,51,52,53,54 (BARREL)
+TRIGGER-FLT4254BARREL 1.0
+C
+C efficiency correction factor for FLT 42,44,51,52,53,54 (REAR)
+TRIGGER-FLT4254REAR 1.0
+C
+C ================================================================
+C sinistra options
+C ================================================================
+C
+C general switch for generation of general histos
+SINISTRA-GENERAL ON
+C
+C general switch for generation of control histos
+SINISTRA-CONTROL ON
+C
+C select(ON) or remove(OFF) DIS events, commented out: remove DIS
+C SINISTRA-DIS OFF
+C
+C cut on Q2 for DIS selection 
+SINISTRA-Q2LOWCUT -9999.99
+C
+C cut on y_el for DIS selection
+SINISTRA-YELHIGHCUT 1.0
+C
+C low cut on y_el for DIS selection
+SINISTRA-YELLOWCUT 0.0
+C
+C cut on sinisitra probability
+SINISTRA-PROBCUT 1.0
+C
+C cut on sinistra energy in cone
+SINISTRA-ENERGYCUT 0
+C
+C cut on y_el for DIS removal
+SINISTRA-YELCUT 1.0
+C
+C Boxcut (X- and Y-position (cm)) for Sinistra electron
+SINISTRA-BOXCUT OFF
+SINISTRA-BOXXCUT 0.
+SINISTRA-BOXYCUT 0.
+C
+C ================================================================
+C CAL options
+C ================================================================
+C
+C general switch for generation of general histos
+CAL-GENERAL ON
+C
+C general switch for generation of control histos
+CAL-CONTROL ON
+C
+C lower cut on y_jb for DIS removal 
+CAL-YJBLOWCUT -9999.99
+C
+C upper cut on y_jb for DIS removal
+CAL-YJBUPCUT 9999.99
+C
+C E_T minus 2 inner rings cut
+CAL-ETCUT 10.0
+C
+C timing cut (.leq.)
+CAL-TIMECUT 10.00000000000000000000001
+C
+C cut on Pt/Et (.lt.)
+CAL-PTOVETCUT 9999.99
+C
+C ================================================================
+C BAC options
+C ================================================================
+C
+C general switch for generation of general histos
+BAC-GENERAL ON
+C
+C general switch for generation of control histos
+BAC-CONTROL ON
+C
+C lower cut on bac_etot (.ge.)
+BAC-BAC_ETOTLOWCUT -9999.99
+C
+C upper cut on bac_etot (.le.)
+BAC-BAC_ETOTUPCUT 99.999999
+C
+C cut on nbacmu (.le.)
+BAC-NBACMUCUT 14
+C
+C================================================================
+C ZUFO options
+C ================================================================
+C
+C general switch for generation of general histos
+ZUFO-GENERAL ON
+C
+C general switch for generation of control histos
+ZUFO-CONTROL ON
+C
+C lower cut on y_jb
+ZUFO-YJBLOWCUT -9999.99
+C
+C upper cut on y_jb
+ZUFO-YJBUPCUT 999.99
+C
+C lower cut on Empz (>=)
+ZUFO-EMPZLOWCUT -9999.99
+C
+C upper cut on Empz (<=)
+ZUFO-EMPZUPCUT 9999.99
+C
+C max cut on Pt_had (<=)
+ZUFO-PTHADMAXCUT 999999.99
+C
+C ================================================================
+C JET options
+C ================================================================
+C
+C general switch for generation of general histos
+JET-GENERAL ON
+C
+C general switch for generation of control histos
+JET-CONTROL ON
+C
+C cut on number of jets ( greater or equal )
+JET-NCUT 0
+C
+C cut on p_t for highest jet
+JET-PTACUT 0.
+C
+C cut on p_t for second highest jet
+JET-PTBCUT 0.
+C
+C lower cut on eta
+JET-ETALOWCUT -999999.99
+C
+C upper cut on eta
+JET-ETAUPCUT 999999.99
+C
+C cuts denoted as Pt cuts are changed to be Et cuts (ON/OFF)
+JET-CUTONET OFF
+C
+C ================================================================
+C Vertex options
+C ================================================================
+C
+C general switch for generation of general histos
+VERTEX-GENERAL ON
+C
+C general switch for generation of control histos
+VERTEX-CONTROL ON
+C
+C x position of nominal vertex for 96-00
+VERTEX-NOMXOLD 0.
+C
+C x position of nominal vertex for 03-04
+VERTEX-NOMXNEW 1.75
+C
+C Y position of nominal vertex
+VERTEX-NOMY 0.
+C
+C z position of nominal vertex
+VERTEX-NOMZ 0.
+C
+C surrounding-cut around nominal vertex in cm
+VERTEX-ZCUT 50.
+C
+C require x vertex not to be euqal to nominal vertex (ON/OFF)
+VERTEX-XCUT ON
+C
+C require y vertex not to be euqal to nominal vertex (ON/OFF)
+VERTEX-YCUT ON
+C
+C maximal distance of vertex from nominal vertex in xy plane
+VERTEX-XYCUT 3.0
+C
+C require valid beamspot (only valid for post-upgrade data and MC (ON/OFF)
+VERTEX-BEAMSPOTCUT OFF
+C
+C nominal x beam spot for pre-upgrade periods [cm]
+VERTEX-OLDBEAMSPOTX 0.0
+C
+C sigma of nominal x beam spot for pre-upgrade periods [cm]
+VERTEX-OLDBEAMSPOTSIGMAX 0.0
+C
+C nominal y beam spot for pre-upgrade periods [cm]
+VERTEX-OLDBEAMSPOTY 0.0
+C
+C sigma of nominal y beam spot for pre-upgrade periods [cm]
+VERTEX-OLDBEAMSPOTSIGMAY 0.0
+C
+C nominal z beam spot for pre-upgrade periods [cm]
+VERTEX-OLDBEAMSPOTZ 0.0
+C
+C sigma of nominal z beam spot for pre-upgrade periods [cm]
+VERTEX-OLDBEAMSPOTSIGMAZ 0.0
+C
+C nominal x beam spot for post-upgrade periods [cm]
+VERTEX-NEWBEAMSPOTX 1.91999996
+C
+C sigma of nominal x beam spot for post-upgrade periods [cm]
+VERTEX-NEWBEAMSPOTSIGMAX 0.0112
+C
+C nominal y beam spot for post-upgrade periods [cm]
+VERTEX-NEWBEAMSPOTY 0.170000002
+C
+C sigma of nominal y beam spot for post-upgrade periods [cm]
+VERTEX-NEWBEAMSPOTSIGMAY 0.003
+C
+C nominal z beam spot for post-upgrade periods [cm]
+VERTEX-NEWBEAMSPOTZ 0.0
+C
+C sigma of nominal z beam spot for post-upgrade periods [cm]
+VERTEX-NEWBEAMSPOTSIGMAZ 0.0
+C
+C ================================================================
+C MUON options
+C ================================================================
+C
+C general switch for generation of general histos
+MUON-GENERAL ON
+C
+C general switch for generation of control histos
+MUON-CONTROL ON
+C
+C cut on number of reconstructed muons, if 0, muon id is switched off
+MUON-NCUT 1
+C
+C Flag to fill all muons in histos
+C
+MUON-FILLALL OFF
+C
+C BREMAT minimal ndof 5 matching probability cut
+MUON-BREMPROB 0.00
+C
+C BREMAT chamber flag requirement
+C set to -99 to deactivate
+MUON-BREMCHAMBERFLAG -99
+C
+C MPMATCH minimal matching probability cut, mpmatch block required 
+MUON-MPMPROB 0.00
+C
+C forward muon track cuts 
+C
+C indentify forward track muon by cut on muchfl 
+C (forward muon with track if muchfl gt cut)
+MUON-CHAMBERFLAGCUT 3
+C  
+C minimal kalman filter probability of the associated mfrtz track
+MUON-MFPRO 0.0
+C
+C minimal number of kalman filter degrees of freedom
+MUON-MFNDF 0
+C
+C track must start from internal plane (maximal requirement)
+MUON-MFZ 999999999
+C
+C quality requirement for forward muons only found by mubac (chamber_flag = 0) (greater_equal)
+MUON-BACFQUALITY -99
+C
+C activate gmuon quality modification routine
+MUON-MODIFYQUALITY ON
+C
+C activate muon efficiency correction routine, if false, use correction factors from muon regions (ON/OFF)
+MUON-EFFICIENCYCORRECTION OFF
+C
+C file with efficiency histograms in $GUTCODEDIR/analysis/efficiencies
+MUON-EFFICIENCYFILE
+C
+C number of pt bins for the MPMATCH efficiencies for data and mc, for deactivation, set to -99
+MUON-EFFICIENCYMPMATCHPTNBINS -99
+C
+C pt bins for MPMATCH efficiencies [PtNBins+1]
+MUON-EFFICIENCYMPMATCHPTBINS 0
+C
+C number of pt bins for the BREMAT efficiencies for data and mc, for deactivation, set to -99
+MUON-EFFICIENCYBREMATPTNBINS -99
+C
+C pt bins for BREMAT efficiencies [PtNBins+1]
+MUON-EFFICIENCYBREMATPTBINS 0
+C
+C number of pt bins for the MUBAC efficiencies for data and mc, for deactivation, set to -99
+MUON-EFFICIENCYMUBACPTNBINS -99
+C
+C pt bins for MUBAC efficiencies [PtNBins+1]
+MUON-EFFICIENCYMUBACPTBINS 0
+C
+C cut off for muon efficiency correction factor, if larger, factor is reset to this value
+MUON-EFFICIENCYCUTOFF 9999.99
+C
+C minimal VCTRHL ID of Muon
+MUON-VCIDLOW 0
+C
+C maximal VCTRHL ID of Muon
+MUON-VCIDUP 999
+C
+C calculate muon isolation for muons passing all other muon cuts (ON/OFF)
+MUON-CALCULATEISOLATION OFF
+C
+C minimum isolation for cone 1.0, if one good muon of event has a smaller isolation, veto event (.le.)
+MUON-MINISOLATION10VETO -99999.99
+C
+C ================================================================
+C FORWARD MUON options
+C ================================================================
+C
+C lower eta cut for forward muons
+FMUON-ETALOW 1.3
+C
+C upper eta cut for forward muons
+FMUON-ETAUP 99.0
+C
+C minimal momentum cut for forward muons
+FMUON-P 0.0
+C
+C minimal transfers momentum cut for forward muons
+FMUON-PT 0.0
+C
+C pairs of muqual and p_T cuts on muons
+C if muqual ge cut and p_T ge cut, then ok
+C
+C first muqual, p_T pair, first and second pair cuts are applied in .or.
+C to deactivate quality cut, set it to -99
+FMUON-QUALCUT1 6
+FMUON-QUALPTCUT1 0.75
+C
+C second muqual, p_T pair, first and second pair cuts are applied in .or.
+C to deactivate quality cut, set it to -99
+FMUON-QUALCUT2 6
+FMUON-QUALPTCUT2 1.5
+C
+C muon finder bits:
+C 0: glomu
+C 1: bremat
+C 2: mubac
+C 3: mamma
+C 4: mpmatch
+C 5: mufo
+C 6: mip
+C 7: mv
+C
+C muon finder bit for "and" requirements
+FMUON-FINDER 255
+C
+C forward muon efficiency
+C
+FMUON-EFFICIENCY99p00p 1.00 
+FMUON-EFFICIENCY98e99e 1.00 
+FMUON-EFFICIENCY96p97p 1.00 
+C
+C ================================================================
+C BARREL MUON options
+C ================================================================
+C
+C lower eta cut for barrel muons
+BMUON-ETALOW -0.9
+C
+C upper eta cut for barrel muons
+BMUON-ETAUP 1.3
+C
+C minimal momentum cut for barrel muons
+BMUON-P 0.0
+C
+C minimal transfers momentum cut for barrel muons
+BMUON-PT 0.0
+C
+C pairs of muqual and p_T cuts on muons
+C if muqual ge cut and p_T ge cut, then ok
+C
+C first muqual, p_T pair, first and second pair cuts are applied in .or.
+C to deactivate quality cut, set it to -99
+BMUON-QUALCUT1 6
+BMUON-QUALPTCUT1 0.75
+C
+C second muqual, p_T pair, first and second pair cuts are applied in .or.
+C to deactivate quality cut, set it to -99
+BMUON-QUALCUT2 6
+BMUON-QUALPTCUT2 1.5
+C
+C muon finder bits:
+C 0: glomu
+C 1: bremat
+C 2: mubac
+C 3: mamma
+C 4: mpmatch
+C 5: mufo
+C 6: mip
+C 7: mv
+C
+C muon finder bit for "and" requirements
+BMUON-FINDER 255
+C
+C barrel muon efficiency
+C
+BMUON-EFFICIENCY99p00p 1.00 
+BMUON-EFFICIENCY98e99e 1.00 
+BMUON-EFFICIENCY96p97p 1.00 
+C
+C ================================================================
+C REAR MUON options
+C ================================================================
+C
+C lower eta cut for rear muons
+RMUON-ETALOW -99.0
+C
+C upper eta cut for rear muons
+RMUON-ETAUP -0.9
+C
+C minimal momentum cut for rear muons
+RMUON-P 0.0
+C
+C minimal transfers momentum cut for rear muons
+RMUON-PT 0.0
+C
+C pairs of muqual and p_T cuts on muons
+C if muqual ge cut and p_T ge cut, then ok
+C
+C first muqual, p_T pair, first and second pair cuts are applied in .or. 
+C to deactivate quality cut, set it to -99
+RMUON-QUALCUT1 6
+RMUON-QUALPTCUT1 0.75
+C
+C second muqual, p_T pair, first and second pair cuts are applied in .or.
+C to deactivate quality cut, set it to -99
+RMUON-QUALCUT2 6
+RMUON-QUALPTCUT2 1.5
+C
+C muon finder bits:
+C 0: glomu
+C 1: bremat
+C 2: mubac
+C 3: mamma
+C 4: mpmatch
+C 5: mufo
+C 6: mip
+C 7: mv
+C
+C muon finder bit for "and" requirements
+RMUON-FINDER 255
+C
+C rear muon efficiency
+C
+RMUON-EFFICIENCY99p00p 1.00 
+RMUON-EFFICIENCY98e99e 1.00 
+RMUON-EFFICIENCY96p97p 1.00 
+C
+C ================================================================
+C TRACKS options
+C ================================================================
+C
+C general switch for generation of general histos
+TRACKS-GENERAL ON
+C
+C general switch for generation of control histos
+TRACKS-CONTROL ON
+C
+C multiplicity cut
+TRACKS-MULTIPLICITY 0
+C
+C cut on maximal required vertex tracks
+TRACKS-VERTEXCUT 9999
+C
+C cut on minimal required vertex tracks (.gt.)
+TRACKS-MINVERTEXCUT -9999
+C
+C cut on total tracks over vertex tracks (.leq.)
+TRACKS-TOTALOVVERTEXCUT 9999.99
+C
+C cut on used superlayers (.ge.)
+TRACKS-USEDSUPERLAYERSCUT 0
+C
+C cut on used hits (.ge.)
+TRACKS-USEDHITSCUT 0
+C
+C cut on used stereo hits (.ge.)
+TRACKS-USEDSTEREOHITSCUT 0
+C
+C cut on z_h of helix parameters (if available)
+TRACKS-ZHCUT 9999.99
+C
+C cut on used mvd hits
+TRACKS-MVDHITSCUT 0
+C
+C ================================================================
+C MJMATCH options
+C ================================================================
+C
+C general switch for generation of general histos
+MJMATCH-GENERAL ON
+C
+C general switch for generation of control histos
+MJMATCH-CONTROL ON
+C
+C number of at least required muon-jet matchs
+MJMATCH-NMATCHS 0
+C
+C cut on jet p_t
+MJMATCH-JETPTCUT 0.
+C
+C cut on p_t of mu-jet
+MJMATCH-MUMINUSJETPTCUT 0.
+C
+C lower cut on ptrel
+MJMATCH-PTRELLOW 0.
+C
+C higher cut on ptrel
+MJMATCH-PTRELHIGH 9999.99
+C
+C take all good matchs into account and not only the highest ptrel match (ON/OFF)
+MJMATCH-TAKEALLGOOD OFF
+C
+C activate ptrel correction in c and lf MC samples (ON/OFF)
+MJMATCH-PTRELCORRECTION OFF
+C
+C filename for ptrel correction histograms in $GUTCODEDIR/analysis/ptrel-correction
+MJMATCH-PTRELCORRFILENAME
+C
+C weight for ptrel correction in c MC samples
+C 1: full correction, 0.5: half correction
+C examples: correction value = 0.9
+C weight 1   => correction 0.9
+C weight 0.5 => correction 0.95
+MJMATCH-PTRELCORCMCWEIGHT 1.0
+C
+C weight for ptrel correction in lf MC samples
+MJMATCH-PTRELCORLFMCWEIGHT 1.0
+C
+C ================================================================
+C TJMATCH options
+C ================================================================
+C
+C general switch for generation of general histos
+TJMATCH-GENERAL OFF
+C
+C general switch for generation of control histos
+TJMATCH-CONTROL OFF
+C
+C number of at least required muon-jet matchs
+TJMATCH-NMATCHS 0
+C
+C cut on jet p_t
+TJMATCH-JETPTCUT 0.
+C
+C cut on p_t of track-jet
+TJMATCH-TRACKMINUSJETPTCUT 0.
+C
+C associate jet to track if deltaR is .le. than given cone
+TJMATCH-ASSOCIATIONCONE 0.
+C
+C ================================================================
+C DIMUON options
+C ================================================================
+C
+C general switch for generation of general histos
+DIMUON-GENERAL ON
+C
+C general switch for generation of control histos
+DIMUON-CONTROL ON
+C
+C number of at least required dimuons
+DIMUON-NDIMUONS 1
+C
+C cut on dimuon invariant mass to be larger than cut value
+DIMUON-INVMASSLOW 1.5
+C
+C cut on dimuon invariant mass to be less than cut value
+DIMUON-INVMASSHIGH 9999.99
+C
+C cut on dimuon SqSumisolation10 to be less or equal that cut-value
+C a good value seems to be 0.5 (9999.9 for neutral)
+DIMUON-SQSUMISOLATION 0.5
+C
+C cut on dimuon delta r to be larger than cut value
+DIMUON-DELTAR 0.
+C
+C cut on dimuon 'delta phi' to be larger than cut value
+C here 'delta phi' is: abs(abs( mu1_phi - mu2_phi ) - pi )
+C thus perfectly back-to-back muons are cut out (cosmics)
+C a good anti-cosmic value is: DIMUON-DELTAPHI 0.015708
+DIMUON-DELTAPHI 0.015707963
+C
+C cut on dimuon 'delta theta' to be larger than cut value
+C here 'delta theta' is: abs( mu1_theta - ( pi - mu2_theta ) )
+C thus perfectly back-to-back muons are cut out (cosmics)
+C a good anti-cosmic value is: DIMUON-DELTATHETA 0.015708
+DIMUON-DELTATHETA 0.015707963
+C
+C cut on dimuon pt asymetry to be .le. than given value
+C from rough MC comparison 0.7 seems to be a good value 
+C can be 1.0 at the max.
+DIMUON-PTASYMETRY 0.7
+C
+C requirement on different charge of the two muons (ON/OFF)
+DIMUON-DIFCHARGE OFF
+C
+C ================================================================
+C MVD options
+C ================================================================
+C
+C general switch to load the GMVD object
+MVD-ACTIVATE OFF
+C
+C general switch for generation of general histos
+MVD-GENERAL OFF
+C
+C general switch for generation of control histos
+MVD-CONTROL OFF
+C
+C ================================================================
+C END
+C ================================================================

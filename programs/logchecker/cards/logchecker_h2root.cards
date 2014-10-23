@@ -1,0 +1,78 @@
+C ================================================================
+C ================================================================
+C
+C                Oli's Control Card fot the Log Checker
+C
+C logchecker.cards
+C
+C $Author: gutsche $
+C $Date: 2003/04/02 07:47:08 $
+C $Revision: 1.4 $
+C
+C ================================================================
+C ================================================================
+C                                                                            
+C ================================================================
+C lists options
+C ================================================================
+C
+C enable list of processed events
+LISTS-PROCEVENTS OFF
+C
+C enable error list
+LISTS-ERRORLIST OFF
+C
+C enable selection list
+LISTS-SELECTIONLIST OFF
+C
+C enable output list
+LISTS-OUTPUTLIST OFF
+C
+C write out info of selected events
+LISTS-OUTPUTSELECTED OFF
+C
+C ================================================================
+C logchecker options
+C ================================================================
+C
+C activate logchecker ON/OFF
+LOGCHECKER-ACTIVATE ON
+C
+C ================================================================
+C terms to check for
+C ================================================================
+C
+C number of terms to check
+LOGCHECKER-TERMNUMBER 6
+C
+C 1.term to check
+LOGCHECKER-TERM01 zfatal
+C
+C 2.term to check
+LOGCHECKER-TERM02 mzpush
+C
+C 3.term to check
+LOGCHECKER-TERM03 catastrophic
+C
+C 4.term to check
+LOGCHECKER-TERM04 time limit
+C
+C 5.term to check
+LOGCHECKER-TERM05 gutanalysis-zuterm
+C
+C 6.term to check
+LOGCHECKER-TERM06 invalid
+C
+C ================================================================
+C terms to count
+C ================================================================
+C
+C number of terms to count
+LOGCHECKER-COUNTNUMBER 0
+C
+C 1.term to count
+LOGCHECKER-COUNT01 opening of new input gaf from
+C
+C ================================================================
+C END
+C ================================================================
