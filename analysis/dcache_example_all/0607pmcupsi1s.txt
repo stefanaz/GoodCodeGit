@@ -1,0 +1,8 @@
+zeus://acs/z/ntup/07p/v02e/mc/root/zeusmc.afsz627.f10688.diffvm.ups1smu.pd.k0.root
+zeus://acs/z/ntup/07p/v02e/mc/root/zeusmc.ffsy627.f10688.diffvm.ups1smu.pd.k0.root
+zeus://acs/z/ntup/07p/v02e/mc/root/zeusmc.hfsy627.f10688.diffvm.ups1smu.el.k0.root
+zeus://acs/z/ntup/07p/v02e/mc/root/zeusmc.hfsy627.f10688.py6.ups1s_e_mu.root
+zeus://acs/z/ntup/07p/v02e/mc/root/zeusmc.hfsy627.f14700.py6.ups1s_e_mu.root
+zeus://acs/z/ntup/07p/v02e/mc/root/zeusmc.hfsz627.f10688.diffvm.ups1smu.el.k0.root
+zeus://acs/z/ntup/07p/v02e/mc/root/zeusmc.hfsz627.f10688.py6.ups1s_e_mu.root
+zeus://acs/z/ntup/07p/v02e/mc/root/zeusmc.hfsz627.f14700.py6.ups1s_e_mu.root

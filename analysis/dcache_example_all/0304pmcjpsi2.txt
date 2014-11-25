@@ -1,0 +1,7 @@
+zeus://acs/z/ntup/04/v02e/mc/root/zeusmc.fcva424.f4192.hrwj2mmcteq4.06ele.03.root
+zeus://acs/z/ntup/04/v02e/mc/root/zeusmc.hcva424.f4192.hrwj2mmcteq4a.06ele.04.root
+zeus://acs/z/ntup/04/v02e/mc/root/zeusmc.hcvh424.f4192.hrwj2mmcteq4.06ele.07.root
+zeus://acs/z/ntup/04/v02e/mc/root/zeusmc.hcvk424.f4192.hrwj2mmcteq4.06ele.05.root
+zeus://acs/z/ntup/04/v02e/mc/root/zeusmc.hcvk424.f4192.hrwj2mmcteq4a.06ele.06.root
+zeus://acs/z/ntup/04/v02e/mc/root/zeusmc.hcvn324.f4192.hrwj2mmcteq4.06ele.01.root
+zeus://acs/z/ntup/04/v02e/mc/root/zeusmc.hcvn324.f4192.hrwj2mmcteq4a.06ele.02.root

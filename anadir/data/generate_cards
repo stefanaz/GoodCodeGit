@@ -1,0 +1,37 @@
+#!/bin/sh
+#
+# generate cards
+#
+# input variables
+#
+# $1: version of data (subdir)
+# $2: cards template
+#
+#
+if [ -z $1 ]; then
+    echo ""
+    echo "Please give data-version and cards file template"
+    echo ""
+    echo "Usage: generate_cards [version] [template]"
+    echo ""
+    exit
+fi
+#
+if [ -z $2 ]; then
+    echo ""
+    echo "Please give data-version and cards file template"
+    echo ""
+    echo "Usage: generate_cards [version] [template]"
+    echo ""
+    exit
+fi
+#
+for dir in 96p 97p 98e 99e 99p 00p 03p 04p 05e 06e 06p 07p
+do
+  if [ -d $dir/$1 ]; then
+    echo "Generate $1 cards in $dir/$1 with template $2"
+    cd $dir/$1
+    ./generate_cards $2
+    cd ../..
+  fi
+done

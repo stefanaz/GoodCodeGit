@@ -1,0 +1,12 @@
+zeus://acs/z/ntup/07p/v02e/mc/root/zeusmc.afsz627.f12583.ccres.0607p.jj.et4.004.root
+zeus://acs/z/ntup/07p/v02e/mc/root/zeusmc.ffsy627.f12583.ccres.0607p.jj.et4.012.root
+zeus://acs/z/ntup/07p/v02e/mc/root/zeusmc.ffsz627.f12583.ccres.0607p.jj.et4.001.root
+zeus://acs/z/ntup/07p/v02e/mc/root/zeusmc.ffsz627.f12583.ccres.0607p.jj.et4.002.root
+zeus://acs/z/ntup/07p/v02e/mc/root/zeusmc.ffsz627.f12583.ccres.0607p.jj.et4.003.root
+zeus://acs/z/ntup/07p/v02e/mc/root/zeusmc.ffsz627.f12583.ccres.0607p.jj.et4.005.root
+zeus://acs/z/ntup/07p/v02e/mc/root/zeusmc.hfsy627.f12583.ccres.0607p.jj.et4.006.root
+zeus://acs/z/ntup/07p/v02e/mc/root/zeusmc.hfsy627.f12583.ccres.0607p.jj.et4.008.root
+zeus://acs/z/ntup/07p/v02e/mc/root/zeusmc.hfsy627.f12583.ccres.0607p.jj.et4.010.root
+zeus://acs/z/ntup/07p/v02e/mc/root/zeusmc.hfsy627.f12583.ccres.0607p.jj.et4.011.root
+zeus://acs/z/ntup/07p/v02e/mc/root/zeusmc.ofsy627.f12583.ccres.0607p.jj.et4.009.root
+zeus://acs/z/ntup/07p/v02e/mc/root/zeusmc.xfsy627.f12583.ccres.0607p.jj.et4.007.root

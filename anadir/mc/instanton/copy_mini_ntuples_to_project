@@ -1,0 +1,30 @@
+#!/bin/sh
+#
+# copy mini-ntuples to new project
+#
+# input variables
+#
+# $1: project name (subdir in $GUTCODEDIR)
+#
+if [ -z $1 ]; then
+    echo ""
+    echo "Please give project name"
+    echo ""
+    echo "Usage: generate_cards [project]"
+    echo ""
+    exit
+fi
+#
+for ver in 03p-04p 05e 06e 06p-07p
+do
+  for dir in inst1
+  do
+    if [ -f $ver/$dir/$1/smallntuple.root ]; then
+      echo "Copy mini ntuple to new project $GUTDATADIR/$1/mc/instanton/$ver/$dir "
+      cd $ver/$dir/$1
+      mkdir -p $GUTDATADIR/$1/mc/instanton/$ver/$dir/data
+      mv smallntuple*.root $GUTDATADIR/$1/mc/instanton/$ver/$dir/data
+      cd ../../..
+    fi
+  done
+done

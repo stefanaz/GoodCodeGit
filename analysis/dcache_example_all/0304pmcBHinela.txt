@@ -1,0 +1,7 @@
+zeus://acs/z/ntup/04/v02e/mc/root/zeusmc.fcpu424.f10688.grape_qel2_2pt_0_5k01_01.root
+zeus://acs/z/ntup/04/v02e/mc/root/zeusmc.hcpu424.f10688.grape_qel1_2pt_0_5k01_01.root
+zeus://acs/z/ntup/04/v02e/mc/root/zeusmc.hcpz424.f10688.grape_qel1_2pt_0_5k01_01.root
+zeus://acs/z/ntup/04/v02e/mc/root/zeusmc.hcpz424.f10688.grape_qel2_2pt_0_5k01_01.root
+zeus://acs/z/ntup/04/v02e/mc/root/zeusmc.ocpr424.f10688.grape_qel2_2pt_0_5k01_01.root
+zeus://acs/z/ntup/04/v02e/mc/root/zeusmc.ycpx424.f10688.grape_qel1_2pt_0_5k01_01.root
+zeus://acs/z/ntup/04/v02e/mc/root/zeusmc.ycpz324.f10688.grape_qel2_2pt_0_5k01_01.root

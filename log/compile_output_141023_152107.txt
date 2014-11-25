@@ -1,0 +1,96 @@
+**************************************************
+Compiling Analysis
+**************************************************
+
+
+**************************************************
+Compiling GutLib
+**************************************************
+make: Nothing to be done for `checkdirs'.
+g++ -shared -O -I/data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/inc/ -L/afs/desy.de/group/zeus.zsmsm/ZEUSSysSoft/Released/Support/root/i586-sl5-linux/5.26.00/lib -lCore -lCint -lRIO -lNet -lHist -lGraf -lGraf3d -lGpad -lTree -lRint -lPostscript -lMatrix -lPhysics -lMathCore -lThread -lGui -pthread -lm -ldl -rdynamic -lMinuit  \
+	/data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GAnalysis.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GAnalysisHeader.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GBac.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GBeamSpot.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GCal.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GCardManager.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GCards.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GConnectTree.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GDIMuon.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GDIMuons.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GFitter.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GGeneral.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GHistogrammer.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GImpactFit.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GInclude.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GJet.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GJets.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GLister.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GLogChecker.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GMC.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GMCVertex.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GMCs.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GMJMatch.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GMJMatchs.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GMVD.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GMerger.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GMuon.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GMuonEfficiency.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GMuons.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GPhysObj.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GPictureMaker.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GPtRelFit.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GRun.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GRuns.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GSinistra.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GTJMatch.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GTJMatchs.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GTrack.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GTracks.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GTriMuon.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GTriMuons.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GTrigger.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GVertex.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GZsmsm.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GZufo.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GAnalysisDict.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GAnalysisHeaderDict.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GBacDict.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GBeamSpotDict.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GCalDict.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GCardManagerDict.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GCardsDict.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GConnectTreeDict.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GDIMuonDict.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GDIMuonsDict.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GFitterDict.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GGeneralDict.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GHistogrammerDict.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GImpactFitDict.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GIncludeDict.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GJetDict.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GJetsDict.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GListerDict.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GLogCheckerDict.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GMCDict.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GMCVertexDict.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GMCsDict.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GMJMatchDict.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GMJMatchsDict.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GMVDDict.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GMergerDict.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GMuonDict.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GMuonEfficiencyDict.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GMuonsDict.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GPhysObjDict.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GPictureMakerDict.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GPtRelFitDict.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GRunDict.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GRunsDict.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GSinistraDict.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GTJMatchDict.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GTJMatchsDict.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GTrackDict.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GTracksDict.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GTriMuonDict.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GTriMuonsDict.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GTriggerDict.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GVertexDict.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GZsmsmDict.o /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/obj/i586-sl4-linux/GZufoDict.o -o  /data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/lib/i586-sl4-linux/libGutLib.so
+lib done
+
+**************************************************
+Finished GutLib
+**************************************************
+
+
+**************************************************
+Compiling analysis
+**************************************************
+mkdir -p ../obj/i586-sl4-linux
+g++ -O -I../inc/ -L/data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/lib/i586-sl4-linux -lGutLib -L/afs/desy.de/group/zeus.zsmsm/ZEUSSysSoft/Released/Support/root/i586-sl5-linux/5.26.00/lib -lCore -lCint -lRIO -lNet -lHist -lGraf -lGraf3d -lGpad -lTree -lRint -lPostscript -lMatrix -lPhysics -lMathCore -lThread -pthread -lm -ldl -rdynamic  \
+	../obj/main.o -o ../exe/i586-sl4-linux/analysis.exe
+exe done
+
+**************************************************
+Finished analysis
+**************************************************
+
+
+**************************************************
+Compiling zsmsm-release 
+**************************************************
+mkdir -p ../obj/i586-sl4-linux
+g++ -O -I../inc/ -L/data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/lib/i586-sl4-linux -lGutLib -L/afs/desy.de/group/zeus.zsmsm/ZEUSSysSoft/Released/Support/root/i586-sl5-linux/5.26.00/lib -lCore -lCint -lRIO -lNet -lHist -lGraf -lGraf3d -lGpad -lTree -lRint -lPostscript -lMatrix -lPhysics -lMathCore -lThread -pthread -lm -ldl -rdynamic  \
+	../obj/main.o -o ../exe/i586-sl4-linux/zsmsm-release.exe
+exe done
+
+**************************************************
+Finished zsmsm-release 
+**************************************************
+
+
+**************************************************
+Compiling cardmaker 
+**************************************************
+mkdir -p ../obj/i586-sl4-linux
+g++ -O -I../inc/ -L/data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/lib/i586-sl4-linux -lGutLib -L/afs/desy.de/group/zeus.zsmsm/ZEUSSysSoft/Released/Support/root/i586-sl5-linux/5.26.00/lib -lCore -lCint -lRIO -lNet -lHist -lGraf -lGraf3d -lGpad -lTree -lRint -lPostscript -lMatrix -lPhysics -lMathCore -lThread -pthread -lm -ldl -rdynamic  \
+	../obj/main.o -o ../exe/i586-sl4-linux/cardmaker.exe
+exe done
+
+**************************************************
+Finished cardmaker 
+**************************************************
+
+
+**************************************************
+Compiling logchecker 
+**************************************************
+mkdir -p ../obj/i586-sl4-linux
+g++ -O -I../inc/ -L/data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/lib/i586-sl4-linux -lGutLib -L/afs/desy.de/group/zeus.zsmsm/ZEUSSysSoft/Released/Support/root/i586-sl5-linux/5.26.00/lib -lCore -lCint -lRIO -lNet -lHist -lGraf -lGraf3d -lGpad -lTree -lRint -lPostscript -lMatrix -lPhysics -lMathCore -lThread -pthread -lm -ldl -rdynamic  \
+	../obj/main.o -o ../exe/i586-sl4-linux/logchecker.exe
+exe done
+
+**************************************************
+Finished logchecker 
+**************************************************
+
+
+**************************************************
+Compiling merger 
+**************************************************
+mkdir -p ../obj/i586-sl4-linux
+g++ -O -I../inc/ -L/data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/lib/i586-sl4-linux -lGutLib -L/afs/desy.de/group/zeus.zsmsm/ZEUSSysSoft/Released/Support/root/i586-sl5-linux/5.26.00/lib -lCore -lCint -lRIO -lNet -lHist -lGraf -lGraf3d -lGpad -lTree -lRint -lPostscript -lMatrix -lPhysics -lMathCore -lThread -pthread -lm -ldl -rdynamic  \
+	../obj/main.o -o ../exe/i586-sl4-linux/merger.exe
+exe done
+
+**************************************************
+Finished merger 
+**************************************************
+
+
+**************************************************
+Compiling picturemaker 
+**************************************************
+mkdir -p ../obj/i586-sl4-linux
+g++ -O -I../inc/ -L/data/zenith234d/stefan/GoodCodeGit/libraries/GutLib/lib/i586-sl4-linux -lGutLib -L/afs/desy.de/group/zeus.zsmsm/ZEUSSysSoft/Released/Support/root/i586-sl5-linux/5.26.00/lib -lCore -lCint -lRIO -lNet -lHist -lGraf -lGraf3d -lGpad -lTree -lRint -lPostscript -lMatrix -lPhysics -lMathCore -lThread -pthread -lm -ldl -rdynamic  \
+	../obj/main.o -o ../exe/i586-sl4-linux/picturemaker.exe
+exe done
+
+**************************************************
+Finished picturemaker 
+**************************************************
+
+

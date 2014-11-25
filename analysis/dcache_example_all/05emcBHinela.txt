@@ -1,0 +1,13 @@
+zeus://acs/z/ntup/05/v02e/mc/root/zeusmc.aduye25.f10688.grape_qel1_2pt_0_5k01_04.root
+zeus://acs/z/ntup/05/v02e/mc/root/zeusmc.fduze25.f10688.grape_qel1_2pt_0_5k02_02.root
+zeus://acs/z/ntup/05/v02e/mc/root/zeusmc.hduwe25.f10688.grape_qel1_2pt_0_5k01_02.root
+zeus://acs/z/ntup/05/v02e/mc/root/zeusmc.hduwe25.f10688.grape_qel1_2pt_0_5k02_02.root
+zeus://acs/z/ntup/05/v02e/mc/root/zeusmc.hduwe25.f10688.grape_qel2_2pt_0_5k01_01.root
+zeus://acs/z/ntup/05/v02e/mc/root/zeusmc.hduxe25.f10688.grape_qel1_2pt_0_5k01_01.root
+zeus://acs/z/ntup/05/v02e/mc/root/zeusmc.hduxe25.f10688.grape_qel2_2pt_0_5k01_01.root
+zeus://acs/z/ntup/05/v02e/mc/root/zeusmc.hduye25.f10688.grape_qel1_2pt_0_5k03_04.root
+zeus://acs/z/ntup/05/v02e/mc/root/zeusmc.hduye25.f10688.grape_qel1_2pt_0_5k04_04.root
+zeus://acs/z/ntup/05/v02e/mc/root/zeusmc.hduye25.f10688.grape_qel2_2pt_0_5k01_01.root
+zeus://acs/z/ntup/05/v02e/mc/root/zeusmc.hduze25.f10688.grape_qel1_2pt_0_5k01_02.root
+zeus://acs/z/ntup/05/v02e/mc/root/zeusmc.hduze25.f10688.grape_qel2_2pt_0_5k01_01.root
+zeus://acs/z/ntup/05/v02e/mc/root/zeusmc.oduye25.f10688.grape_qel1_2pt_0_5k02_04.root

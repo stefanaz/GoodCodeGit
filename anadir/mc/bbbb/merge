@@ -1,0 +1,40 @@
+#!/bin/sh
+#
+# merging histogram-files
+#
+# input variables
+#
+# $1: version of data (subdir)
+# $2: path and name of merged histogram-file
+#
+if [ -z $1 ]; then
+    echo ""
+    echo "Please give data-version"
+    echo ""
+    echo "Usage: merge [version] [outputname]"
+    echo ""
+    exit
+fi
+#
+if [ -z $2 ]; then
+    echo ""
+    echo "Please give merged histogram-file"
+    echo ""
+    echo "Usage: merge [version] [outputname]"
+    echo ""
+    exit
+fi
+#
+
+for ver in 03p-04p 05e 06e 06p-07p
+do
+  for dir in bbbb1
+  do
+    if [ -d $ver/$dir/$1 ]; then
+      echo "Merging $ver/$dir/$1"
+      cd $ver/$dir/$1
+      ./merge $2
+      cd ../../..
+    fi
+  done
+done

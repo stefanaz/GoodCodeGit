@@ -1,0 +1,6 @@
+zeus://acs/z/ntup/04/v02e/mc/root/zeusmc.fcor424.f15125.multi.charm.madgr.root
+zeus://acs/z/ntup/04/v02e/mc/root/zeusmc.fcou424.f15125.multi.charm.madgr.02.root
+zeus://acs/z/ntup/04/v02e/mc/root/zeusmc.hcou424.f15125.multi.charm.madgr.01.root
+zeus://acs/z/ntup/04/v02e/mc/root/zeusmc.hcox424.f15125.multi.charm.madgr.root
+zeus://acs/z/ntup/04/v02e/mc/root/zeusmc.hcoz324.f15125.multi.charm.madgr.root
+zeus://acs/z/ntup/04/v02e/mc/root/zeusmc.hcoz424.f15125.multi.charm.madgr.root

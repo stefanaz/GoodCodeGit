@@ -1,0 +1,13 @@
+zeus://acs/z/ntup/04/v02e/mc/root/zeusmc.fcpu424.f15125.qcdins.jetset.02.root
+zeus://acs/z/ntup/04/v02e/mc/root/zeusmc.fcpx424.f15125.qcdins.jetset.01.root
+zeus://acs/z/ntup/04/v02e/mc/root/zeusmc.hcpr424.f15125.qcdins.jetset.01.root
+zeus://acs/z/ntup/04/v02e/mc/root/zeusmc.hcpr424.f15125.qcdins.jetset.02.root
+zeus://acs/z/ntup/04/v02e/mc/root/zeusmc.hcpu424.f15125.qcdins.jetset.03.root
+zeus://acs/z/ntup/04/v02e/mc/root/zeusmc.hcpu424.f15125.qcdins.jetset.04.root
+zeus://acs/z/ntup/04/v02e/mc/root/zeusmc.hcpu424.f15125.qcdins.jetset.05.root
+zeus://acs/z/ntup/04/v02e/mc/root/zeusmc.hcpx424.f15125.qcdins.jetset.02.root
+zeus://acs/z/ntup/04/v02e/mc/root/zeusmc.hcpz324.f15125.qcdins.jetset.01.root
+zeus://acs/z/ntup/04/v02e/mc/root/zeusmc.hcpz324.f15125.qcdins.jetset.02.root
+zeus://acs/z/ntup/04/v02e/mc/root/zeusmc.hcpz324.f15125.qcdins.jetset.03.root
+zeus://acs/z/ntup/04/v02e/mc/root/zeusmc.hcpz424.f15125.qcdins.jetset.01.root
+zeus://acs/z/ntup/04/v02e/mc/root/zeusmc.ycpu424.f15125.qcdins.jetset.01.root

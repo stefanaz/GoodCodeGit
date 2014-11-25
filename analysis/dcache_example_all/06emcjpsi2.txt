@@ -1,0 +1,11 @@
+zeus://acs/z/ntup/06e/v02e/mc/root/zeusmc.aevue26.f4192.hrwj2mmcteq4.03.root
+zeus://acs/z/ntup/06e/v02e/mc/root/zeusmc.aevue26.f4192.hrwj2mmcteq4.10.root
+zeus://acs/z/ntup/06e/v02e/mc/root/zeusmc.hevue26.f4192.hrwj2mmcteq4.01.root
+zeus://acs/z/ntup/06e/v02e/mc/root/zeusmc.hevue26.f4192.hrwj2mmcteq4.02.root
+zeus://acs/z/ntup/06e/v02e/mc/root/zeusmc.hevue26.f4192.hrwj2mmcteq4.04.root
+zeus://acs/z/ntup/06e/v02e/mc/root/zeusmc.hevue26.f4192.hrwj2mmcteq4.05.root
+zeus://acs/z/ntup/06e/v02e/mc/root/zeusmc.hevue26.f4192.hrwj2mmcteq4.06.root
+zeus://acs/z/ntup/06e/v02e/mc/root/zeusmc.hevue26.f4192.hrwj2mmcteq4.07.root
+zeus://acs/z/ntup/06e/v02e/mc/root/zeusmc.hevue26.f4192.hrwj2mmcteq4.08.root
+zeus://acs/z/ntup/06e/v02e/mc/root/zeusmc.hevue26.f4192.hrwj2mmcteq4.09.root
+zeus://acs/z/ntup/06e/v02e/mc/root/zeusmc.hevue26.f4192.hrwj2mmcteq4.11.root

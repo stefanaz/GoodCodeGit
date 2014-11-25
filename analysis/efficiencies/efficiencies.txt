@@ -1,0 +1,167 @@
+available muon efficiency files
+===============================
+
+
+
+071221_rc6_v2004a.pro)
+====================================================================================
+Final efficiency correction files. To be used by all analyses.
+------------------------------------------------------------------------------------
+071221_rc6_v2004a.pro_96p00p_MBTAKE_noFMUTAKE_LOOSE.root
+071221_rc6_v2004a.pro_96p97p_MBTAKE_noFMUTAKE_LOOSE.root
+071221_rc6_v2004a.pro_98e00p_MBTAKE_noFMUTAKE_LOOSE.root
+-----
+071221_rc6_v2004a.pro_96p00p_MBTAKE_noFMUTAKE_TIGHT.root
+071221_rc6_v2004a.pro_96p97p_MBTAKE_noFMUTAKE_TIGHT.root
+071221_rc6_v2004a.pro_98e00p_MBTAKE_noFMUTAKE_TIGHT.root
+--------------------------------------------------------
+for the MC files corresponding to "old HERA I" ntuples produced with executable
+- orange_v2004a_compiled_040309_incl_flt_incl_ora_jets_ptrel_deltaR_incl_rcalir.exe
+ (or a bit later, i.e. orange_v2004a_compiled_040702_mcjets.exe)
+- data stored in batches 101-106
+- mc:
+-- bh   - 52 samples done by Ingo ( 1003964 = 1004 K events)
+-- jpsi - DIFFVM generated/funneled by Igor  ( 349990 = 350 K)
+        - + few ELAPSI samples from ZEUS_note_04-006 ( + 168452 = +170K) ( total = 520 K )
+
+--------------------------------------------------------
+mini ntuples produced with
+data:
+- evlist - general_gmuon_dimuon_4_0_0.cards 
+- mini   - general_gmuon_dimuon_4_0_1.cards
+mc:
+- evlist - general_gmuon_dimuon_5_0_0.cards 
+- mini   - general_gmuon_dimuon_5_0_1.cards
+/* differ in EVTAKE, CAL-TIMECUT                          */
+
+plots produced with:
+-  MBTAKE - on, FMUTAKE - on,
+-  MBTAKE - on, FMUTAKE - off,
+-  MBTAKE -off, FMUTAKE - off
+ -> loose/tight configurations differ by
+ -> MUON-BREMPROB     from       0.00  to   0.01
+ -> MUON-MPMPROB      from       0.00  to   0.05
+ -> MUON-MUBACBACFLAG from 9999999.99  to  50.00 
+
+- loose - general_gmuon_dimuon_4_0_3_MBTAKE_noFMUTAKE.cards 
+- tight - general_gmuon_dimuon_4_1_1_MBTAKE_noFMUTAKE.cards
+/* ->                               _MBTAKE_FMUTAKE     
+   ->                               _MBTAKE_noFMUTAKE    
+   ->                               _noMBTAKE_noFMUTAKE   */
+------------------------------------------------------------------------------------
+
+
+
+
+071220_rc6_v2005a2)
+====================================================================================
+Final efficiency correction files. To be used by all analyses.
+------------------------------------------------------------------------------------
+071220_rc6_v2005a.2_96p00p_MBTAKE_noFMUTAKE_LOOSE.root
+071220_rc6_v2005a.2_96p97p_MBTAKE_noFMUTAKE_LOOSE.root
+071220_rc6_v2005a.2_98e00p_MBTAKE_noFMUTAKE_LOOSE.root
+-----
+071220_rc6_v2005a.2_96p00p_MBTAKE_noFMUTAKE_TIGHT.root
+071220_rc6_v2005a.2_96p97p_MBTAKE_noFMUTAKE_TIGHT.root
+071220_rc6_v2005a.2_98e00p_MBTAKE_noFMUTAKE_TIGHT.root
+-------------------------------------------------------
+for the MC files corresponding to the "new HERA I" ntuples produced with executable
+- orange_v2005a.2_preupgrade_mc_060519.exe
+- data stored in batches 111-116
+- mc:
+-- bh   - 53 "mctrue" samples done by Ingo ( 1023964 = 1024 K events)
+-- jpsi - DIFFVM generated/funneled by Igor  ( 349990 = 350 K)
+        - ELAPSI from ZEUS_note_04-006 refunneled by Igor  ( + 79892  = 80 K) (total = 430 K)
+------------------------------------------------------------------------------------
+
+
+
+
+071220_rc6_v2007a)
+====================================================================================
+[Intermediate] efficiency correction files.
+------------------------------------------------------------------------------------
+071220_rc6_v2007a_03p04p_MBTAKE_FMUTAKE_LOOSE.root
+071220_rc6_v2007a_05e_MBTAKE_FMUTAKE_LOOSE.root
+071220_rc6_v2007a_06e_MBTAKE_FMUTAKE_LOOSE.root
+-----
+071220_rc6_v2007a_03p04p_MBTAKE_FMUTAKE_TIGHT.root
+071220_rc6_v2007a_05e_MBTAKE_FMUTAKE_TIGHT.root
+071220_rc6_v2007a_06e_MBTAKE_FMUTAKE_TIGHT.root
+-------------------------------------------------------
+for the MC files corresponding to the "new HERA II" ntuples produced with executable
+- orange_v2007_MC_20070810.exe
+
+reprocessing ditails:
+
+-- mc:
+- 03p04p - RP3 (MC -> cv)
+-- bh    - 30 samples (505 K)
+           14 GRAPE samples done by Ingo ( 260000 =  260 K events)
+           16 GRAPE samples done by Igor ( 244995 =  245 K events)
+-- jps i - DIFFVM generated/funneled by Igor  
+         - 5  DIFFVM samples by Igor      ( 203125 =  203 K events)
+
+- 05e    - RP  (corresponds to the common ntuples version with rerun RTFIT)
+-- bh    - 43 GRAPE samples by Igor ( 1831985 = 1830 K)
+-- jpsi  - 4  DIFFVM samples by Igor ( 499773 = 500 K)
+
+- 06e    - RP  (MC -> ey)
+-- bh    - 19 GRAPE samples by Igor ( 769990 = 770 K)
+-- jpsi  - 2  DIFFVM samples by Igor ( 164600 = 165 K)
+
+
+------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+====================================================================================
+050504_01_96p-00p_fine.root 
+------------------------------------------
+
+pt-binning from 0.75 to greater 5.0
+using massimo's MC samples
+larger m_mumu window
+gmuon_selection_mini_scenario_8_6.template
+loose configuration
+
+050504_02_96p-00p_fine.root
+------------------------------------------
+
+pt-binning from 0.75 to greater 5.0
+using massimo's MC samples
+larger m_mumu window
+gmuon_selection_mini_scenario_8_7.template
+tight selection
+bremat: muprob > 0.01
+mpmatch: muprob > 0.05
+mubac: mubacfl < 50
+tight configuration
+
+050517_05_96p-00p_fine.root
+------------------------------------------
+
+pt-binning from 0.75 to greater 5.0
+using massimo's MC samples
+larger m_mumu window
+gmuon_selection_mini_scenario_8_6.template
+loose configuration
+
+050517_06_96p-00p_fine.root
+------------------------------------------
+
+pt-binning from 0.75 to greater 5.0
+using massimo's MC samples
+larger m_mumu window
+gmuon_selection_mini_scenario_8_7.template
+tight selection
+bremat: muprob > 0.01
+mpmatch: muprob > 0.05
+mubac: mubacfl < 50
+tight configuration
+

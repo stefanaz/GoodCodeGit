@@ -1,0 +1,16 @@
+zeus://acs/z/ntup/05/v02e/mc/root/zeusmc.hduwe25.f10688.diffvm.ups1smu.el.k0.root
+zeus://acs/z/ntup/05/v02e/mc/root/zeusmc.hduwe25.f10688.diffvm.ups1smu.pd.k0.root
+zeus://acs/z/ntup/05/v02e/mc/root/zeusmc.hduwe25.f10688.py6.ups1s_e_mu.root
+zeus://acs/z/ntup/05/v02e/mc/root/zeusmc.hduwe25.f14700.py6.ups1s_e_mu.root
+zeus://acs/z/ntup/05/v02e/mc/root/zeusmc.hduxe25.f10688.diffvm.ups1smu.el.k0.root
+zeus://acs/z/ntup/05/v02e/mc/root/zeusmc.hduxe25.f10688.diffvm.ups1smu.pd.k0.root
+zeus://acs/z/ntup/05/v02e/mc/root/zeusmc.hduxe25.f10688.py6.ups1s_e_mu.root
+zeus://acs/z/ntup/05/v02e/mc/root/zeusmc.hduxe25.f14700.py6.ups1s_e_mu.root
+zeus://acs/z/ntup/05/v02e/mc/root/zeusmc.hduye25.f10688.diffvm.ups1smu.el.k0.root
+zeus://acs/z/ntup/05/v02e/mc/root/zeusmc.hduye25.f10688.diffvm.ups1smu.pd.k0.root
+zeus://acs/z/ntup/05/v02e/mc/root/zeusmc.hduye25.f10688.py6.ups1s_e_mu.root
+zeus://acs/z/ntup/05/v02e/mc/root/zeusmc.hduye25.f14700.py6.ups1s_e_mu.root
+zeus://acs/z/ntup/05/v02e/mc/root/zeusmc.hduze25.f10688.diffvm.ups1smu.el.k0.root
+zeus://acs/z/ntup/05/v02e/mc/root/zeusmc.hduze25.f10688.diffvm.ups1smu.pd.k0.root
+zeus://acs/z/ntup/05/v02e/mc/root/zeusmc.hduze25.f10688.py6.ups1s_e_mu.root
+zeus://acs/z/ntup/05/v02e/mc/root/zeusmc.hduze25.f14700.py6.ups1s_e_mu.root

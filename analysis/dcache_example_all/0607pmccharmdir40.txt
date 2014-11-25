@@ -1,0 +1,11 @@
+zeus://acs/z/ntup/07p/v02f/mc/root/zeusmc.ofsyr27.f15125.inc.pyth.ccdir.red.3189.root
+zeus://acs/z/ntup/07p/v02f/mc/root/zeusmc.ofsyr27.f15125.inc.pyth.ccdir.red.3244.root
+zeus://acs/z/ntup/07p/v02f/mc/root/zeusmc.ofsyr27.f15125.inc.pyth.ccdir.red.3246.root
+zeus://acs/z/ntup/07p/v02f/mc/root/zeusmc.ofsyr27.f15125.inc.pyth.ccdir.red.3274.root
+zeus://acs/z/ntup/07p/v02f/mc/root/zeusmc.ofsyr27.f15125.inc.pyth.ccdir.red.3312.root
+zeus://acs/z/ntup/07p/v02f/mc/root/zeusmc.ofsyr27.f15125.inc.pyth.ccdir.red.3330.root
+zeus://acs/z/ntup/07p/v02f/mc/root/zeusmc.ofsyr27.f15125.inc.pyth.ccdir.red.3370.root
+zeus://acs/z/ntup/07p/v02f/mc/root/zeusmc.ofsyr27.f15125.inc.pyth.ccdir.red.3408.root
+zeus://acs/z/ntup/07p/v02f/mc/root/zeusmc.ofsyr27.f15125.inc.pyth.ccdir.red.3425.root
+zeus://acs/z/ntup/07p/v02f/mc/root/zeusmc.ofsyr27.f15125.inc.pyth.ccdir.red.3461.root
+zeus://acs/z/ntup/07p/v02f/mc/root/zeusmc.ofsyr27.f15125.inc.pyth.ccdir.red.3497.root

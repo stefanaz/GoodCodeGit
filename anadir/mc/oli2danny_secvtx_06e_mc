@@ -1,0 +1,56 @@
+#!/bin/sh
+#
+# merge histogram-files
+#
+# input variables
+#
+# $1: version of data (subdir)
+# $2: path and name of merged histogram-file
+#
+if [ -z $1 ]; then
+    echo ""
+    echo "Please give data-version"
+    echo ""
+    echo "Usage: merge [version] [outputname]"
+    echo ""
+    exit
+fi
+#
+if [ -z $2 ]; then
+    echo ""
+    echo "Please give merged histogram-file"
+    echo ""
+    echo "Usage: merge [version] [outputname]"
+    echo ""
+    exit
+fi
+#
+for dir in b c jpsi bh psiprime upsilon instanton bbbb cccc bbcc
+do
+#echo "Merging $dir"
+cd $dir
+#./merge $1 $2
+echo "script is in dir" $dir "first loop"
+#ls -trahl histo*
+for ver in 06e
+do
+for dir2 in dir res exgamma exproton dirrap resrap jpsi1 jpsi2 all psi2 elastic inelastic DIS 1s_dir 2s_dir 3s_dir inst1 bbbb1 cccc1 bbcc1
+  do
+    if [ -d $ver/$dir2/$1 ]; then
+#      echo "Merging $ver/$dir2/$1"
+      cd $ver/$dir2/$1
+#      ./merge $2
+      echo "script is in dir/ver/dir2" $dir " " $ver " " $dir2 "second loop"
+#      ls -trahl histo*
+#     root -l /home/ibloch/lap_ZEUS/macros/analysis_macros/oli_to_ingo_auto.C+
+#       root -l /data/zenith223a/dbot/Gut_Code_PhD/anadir/analysis_macros/oli_to_danny_secvtx.C+
+      root -l $GUTANADIR/analysis_macros/oli_to_danny_secvtx.C+
+      filename=$dir"_"$ver"_"$dir2
+      echo "filename iss:" $filename    
+      cp oli2danny_out.root $GUTANADIR/$filename.root
+      cd ../../..
+    fi
+  done
+done
+cd ..
+done

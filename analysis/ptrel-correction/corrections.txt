@@ -1,0 +1,24 @@
+050419_02_GMuon_PtRel_Corrections.root		thesis corrections pre-upgrade ptmu >= 2.0 GeV
+050422_01_GMuon_PtRel_Corrections.root		thesis corrections pre-upgrade ptmu >= 1.5 GeV
+
+050422_07_GMuon_Upgrade_PtRel_Corrections.root	thesis corrections post-upgrade ptmu >= 2.0 GeV
+050422_08_GMuon_Upgrade_PtRel_Corrections.root	thesis corrections post-upgrade ptmu >= 1.5 GeV
+
+050520_01_GMuon_PtRel_Corrections.root		change dphi-binning to John, pre-upgrade ptmu >= 2.0 GeV
+050520_02_GMuon_PtRel_Corrections.root		change dphi-binning to John, pre-upgrade ptmu >= 1.5 GeV
+
+060406_01_GMuon_PtRel_Corrections.root		change binning of xgamma, dr, ptjets, mjets and add cos(theta*), pre-upgrade ptmu >= 1.5 GeV
+
+060611_03_GMuon_PtRel_Corrections.root		update of 060406_01_GMuon_PtRel_Corrections.root
+
+070124_01_GMuon_PtRel_Corrections.root          new ptrel corrections for ptmu >= 2 GeV
+070124_03_GMuon_PtRel_Corrections.root          new ptrel corrections for ptmu >= 1.5 GeV
+
+070207_01_GMuon_PtRel_Corrections.root          new ptrel corrections for ptmu >= 2 GeV
+
+070402_01_GMuon_PtRel_Corrections.root		new ptrel corrections for ptmu >= 1.5 GeV (changes in binning)
+20071014-3_GMuon_PtRel_Corrections.root        	new ptrel corrections for ptmu >= 1.5 GeV(96-00) changes in binning of deltaR, MJJ mjcosthetastr added
+20071216-2_GMuon_PtRel_Corrections.root         new binning in costhstar, eta-mu,eta-jet,pt-mu,pt-jet (96-00 ptmu>1.5GeV)
+20080102-1_GMuon_PtRel_Corrections.root         new binning in dphi (96-00 ptmu>1.5GeV)
+20080102-1_GMuon_PtRel_Corrections.root         finder ptrel fits added
+20080227-1_GMuon_PtRel_Corrections.root         version of Ursula thesis 

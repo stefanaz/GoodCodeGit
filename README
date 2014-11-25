@@ -1,4 +1,38 @@
 First project GutCode with GitHub.
 
-Source for analysis was taken from SAVE version: 
+Source for the analysis was taken from SAVE version: 
 /data/zenith234d/stefan/tmp/save_20_01_14/GutCode/libraries/GutLib/
+
+-- checked on Jpsi MC sample, creating mini CN -> working good for a few Jpsi files.
+-- prepared first commit with at least compiled files, and with src for 20_01_14  -> prepare first vesion commit : v0.1
+-- cleaned workdir from unused and test files.
+-- create mini CN from 05e data and compare results with 05e dta from Danny and from my new src version
+	-- created mini_nt "mini_HeraII_05e_Data_only_Dimuon_Finalversion": 
+	file smallntuple.root is identical to the oldest version src/ for production of this file
+	BUT it is still different from primary file from Danny => need check for comparison both files.
+	-- compared by Runnr and Eventnr ; Found that my smallntuple.root is the identical part of Danny. Danny has somehow more events. 
+
+Going to check: 
+-- find new Danny cat. 
+
+-- check mini CN production with 03p , 04p data separately
+	-- at the end => prepare all new mini_nt for v02 (*1)
+-- check running the analysis -> histo productions
+-- update src/ to latest version
+-- prepare version submit v0.9_test
+	-- check with consistensy of results
+	-- make all tests (subsets, secvtx, dimuon histoses, run_all, finalyze all)
+-- prepare version submit v1.0
+
+-- create a clone GoodCodeGit repo on NAF mashines.
+	(*1*) -- run miniNT production for all data 
+
+-- create a new branch with : create new dir for saving all plots automativcally from all parts of analysis 
+
+-- create a new branch 1.1 : CS developing
+	-- make CS creating from the simple ground.
+
+-- create a new branch with a Fitter.
+
+
+ 

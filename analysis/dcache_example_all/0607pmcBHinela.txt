@@ -1,0 +1,9 @@
+zeus://acs/z/ntup/07p/v02e/mc/root/zeusmc.hfsy627.f10688.grape_qel1_2pt_0_5k01_04.root
+zeus://acs/z/ntup/07p/v02e/mc/root/zeusmc.hfsy627.f10688.grape_qel1_2pt_0_5k02_04.root
+zeus://acs/z/ntup/07p/v02e/mc/root/zeusmc.hfsy627.f10688.grape_qel1_2pt_0_5k03_04.root
+zeus://acs/z/ntup/07p/v02e/mc/root/zeusmc.hfsy627.f10688.grape_qel1_2pt_0_5k04_04.root
+zeus://acs/z/ntup/07p/v02e/mc/root/zeusmc.hfsy627.f10688.grape_qel2_2pt_0_5k01_01.root
+zeus://acs/z/ntup/07p/v02e/mc/root/zeusmc.hfsz627.f10688.grape_qel1_2pt_0_5k01_03.root
+zeus://acs/z/ntup/07p/v02e/mc/root/zeusmc.hfsz627.f10688.grape_qel1_2pt_0_5k02_03.root
+zeus://acs/z/ntup/07p/v02e/mc/root/zeusmc.hfsz627.f10688.grape_qel1_2pt_0_5k03_03.root
+zeus://acs/z/ntup/07p/v02e/mc/root/zeusmc.hfsz627.f10688.grape_qel2_2pt_0_5k01_01.root

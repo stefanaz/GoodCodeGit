@@ -1,0 +1,9 @@
+zeus://acs/z/ntup/04/v02e/mc/root/zeusmc.hcpr427.f12583.ccres.0304p.jj.et4.006.root
+zeus://acs/z/ntup/04/v02e/mc/root/zeusmc.hcpr427.f12583.ccres.0304p.jj.et4.007.root
+zeus://acs/z/ntup/04/v02e/mc/root/zeusmc.hcpu427.f12583.ccres.0304p.jj.et4.003.root
+zeus://acs/z/ntup/04/v02e/mc/root/zeusmc.hcpu427.f12583.ccres.0304p.jj.et4.004.root
+zeus://acs/z/ntup/04/v02e/mc/root/zeusmc.hcpu427.f12583.ccres.0304p.jj.et4.005.root
+zeus://acs/z/ntup/04/v02e/mc/root/zeusmc.hcpx427.f12583.ccres.0304p.jj.et4.001.root
+zeus://acs/z/ntup/04/v02e/mc/root/zeusmc.hcpz327.f12583.ccres.0304p.jj.et4.008.root
+zeus://acs/z/ntup/04/v02e/mc/root/zeusmc.hcpz327.f12583.ccres.0304p.jj.et4.009.root
+zeus://acs/z/ntup/04/v02e/mc/root/zeusmc.hcpz427.f12583.ccres.0304p.jj.et4.002.root

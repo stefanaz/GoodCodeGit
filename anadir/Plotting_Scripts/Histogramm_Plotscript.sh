@@ -1,0 +1,6 @@
+root -l -b "Histogramm_Extraction_Nis.C(true,  true)"
+root -l -b "Histogramm_Extraction_Nis.C(false, true)"
+root -l -b "Histogramm_Extraction_Is.C(true,  true)"
+root -l -b "Histogramm_Extraction_Is.C(false, true)"
+root -l -b "Histogramm_Extraction_Nisandis.C(true,  true)"
+root -l -b "Histogramm_Extraction_Nisandis.C(false, true)"

@@ -1,0 +1,17 @@
+zeus://acs/z/ntup/06e/v02e/mc/root/zeusmc.hevse26.f15125.qcdins.jetset.01.root
+zeus://acs/z/ntup/06e/v02e/mc/root/zeusmc.hevse26.f15125.qcdins.jetset.02.root
+zeus://acs/z/ntup/06e/v02e/mc/root/zeusmc.hevse26.f15125.qcdins.jetset.03.root
+zeus://acs/z/ntup/06e/v02e/mc/root/zeusmc.hevse26.f15125.qcdins.jetset.04.root
+zeus://acs/z/ntup/06e/v02e/mc/root/zeusmc.hevse26.f15125.qcdins.jetset.05.root
+zeus://acs/z/ntup/06e/v02e/mc/root/zeusmc.hevse26.f15125.qcdins.jetset.06.root
+zeus://acs/z/ntup/06e/v02e/mc/root/zeusmc.hevse26.f15125.qcdins.jetset.07.root
+zeus://acs/z/ntup/06e/v02e/mc/root/zeusmc.hevse26.f15125.qcdins.jetset.08.root
+zeus://acs/z/ntup/06e/v02e/mc/root/zeusmc.hevse26.f15125.qcdins.jetset.09.root
+zeus://acs/z/ntup/06e/v02e/mc/root/zeusmc.hevse26.f15125.qcdins.jetset.10.root
+zeus://acs/z/ntup/06e/v02e/mc/root/zeusmc.hevse26.f15125.qcdins.jetset.11.root
+zeus://acs/z/ntup/06e/v02e/mc/root/zeusmc.hevse26.f15125.qcdins.jetset.12.root
+zeus://acs/z/ntup/06e/v02e/mc/root/zeusmc.hevse26.f15125.qcdins.jetset.13.root
+zeus://acs/z/ntup/06e/v02e/mc/root/zeusmc.hevue26.f15125.qcdins.jetset.01.root
+zeus://acs/z/ntup/06e/v02e/mc/root/zeusmc.hevue26.f15125.qcdins.jetset.02.root
+zeus://acs/z/ntup/06e/v02e/mc/root/zeusmc.hevue26.f15125.qcdins.jetset.03.root
+zeus://acs/z/ntup/06e/v02e/mc/root/zeusmc.hevue26.f15125.qcdins.jetset.04.root

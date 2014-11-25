@@ -1,6 +1,44 @@
 *.[oa]
 *.exe
+*.d
+*.so
 *~
-/datadir
-/anadir
 *.txt
+
+/CVS/
+
+### datadir ignore :
+/datadir/
+
+### anadir ignore:
+/anadir/*.root
+/anadir/*/
+
+!/anadir/data/
+!/anadir/mc/
+!/anadir/Extraction_Scripts/
+!/anadir/Plotting_Scripts/
+!/anadir/analysis_macros/
+
+/anadir/data/0*/
+!/anadir/data/0*/template
+
+/anadir/mc/*/*/*/
+!/anadir/mc/*/*/*/template
+
+### analysis ignore :
+
+analysis/cards/old_cards/
+analysis/obj/
+analysis/htmldoc/
+analysis/exe/
+analysis/dict/
+analysis/dcache/temp/
+
+### log ignore : 
+#log/
+/libraries/GutLib/
+/libraries/
+!/libraries/GutLib/src/
+!/libraries/GutLib/inc/
+!/libraries/GutLib/diff_sub_modes/

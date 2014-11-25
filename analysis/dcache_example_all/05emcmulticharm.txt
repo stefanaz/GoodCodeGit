@@ -1,0 +1,15 @@
+zeus://acs/z/ntup/05/v02e/mc/root/zeusmc.hdtwe25.f15125.multi.charm.madgr.01.root
+zeus://acs/z/ntup/05/v02e/mc/root/zeusmc.hdtwe25.f15125.multi.charm.madgr.02.root
+zeus://acs/z/ntup/05/v02e/mc/root/zeusmc.hdtwe25.f15125.multi.charm.madgr.03.root
+zeus://acs/z/ntup/05/v02e/mc/root/zeusmc.hdtxe25.f15125.multi.charm.madgr.root
+zeus://acs/z/ntup/05/v02e/mc/root/zeusmc.hdtye25.f15125.multi.charm.madgr.01.root
+zeus://acs/z/ntup/05/v02e/mc/root/zeusmc.hdtye25.f15125.multi.charm.madgr.02.root
+zeus://acs/z/ntup/05/v02e/mc/root/zeusmc.hdtye25.f15125.multi.charm.madgr.03.root
+zeus://acs/z/ntup/05/v02e/mc/root/zeusmc.hdtye25.f15125.multi.charm.madgr.04.root
+zeus://acs/z/ntup/05/v02e/mc/root/zeusmc.hdtye25.f15125.multi.charm.madgr.05.root
+zeus://acs/z/ntup/05/v02e/mc/root/zeusmc.hdtye25.f15125.multi.charm.madgr.06.root
+zeus://acs/z/ntup/05/v02e/mc/root/zeusmc.hdtye25.f15125.multi.charm.madgr.07.root
+zeus://acs/z/ntup/05/v02e/mc/root/zeusmc.hdtye25.f15125.multi.charm.madgr.08.root
+zeus://acs/z/ntup/05/v02e/mc/root/zeusmc.hdtze25.f15125.multi.charm.madgr.01.root
+zeus://acs/z/ntup/05/v02e/mc/root/zeusmc.hdtze25.f15125.multi.charm.madgr.02.root
+zeus://acs/z/ntup/05/v02e/mc/root/zeusmc.hdtze25.f15125.multi.charm.madgr.03.root

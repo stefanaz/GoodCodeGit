@@ -1,0 +1,5 @@
+zeus://acs/z/ntup/05e/v02e/mc/root/zeusmc.adtwe25.f15125.herwig.psi2smm.root
+zeus://acs/z/ntup/05e/v02e/mc/root/zeusmc.adtze25.f15125.herwig.psi2smm.root
+zeus://acs/z/ntup/05e/v02e/mc/root/zeusmc.adtye25.f15125.herwig.psi2smm.01.root
+zeus://acs/z/ntup/05e/v02e/mc/root/zeusmc.hdtye25.f15125.herwig.psi2smm.02.root
+zeus://acs/z/ntup/05e/v02e/mc/root/zeusmc.hdtye25.f15125.herwig.psi2smm.03.root

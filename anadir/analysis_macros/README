@@ -1,0 +1,16 @@
+INFO: 
+
+this directory provide extracting from analysed .root file sets of useful histos.
+
+at this moment could be: 
+-- dimuon distributions
+-- secvtx distr. 
+ 
+info about files: 
+-- inc 				: for libraries
+-- oli_to_danny_dimuon.C	: to create dimuon distributions 
+-- oli_to_danny_secvtx.C	: to create secvtx distributions
+-- set_src_first.sh		: script (set up work without subsets)
+-- set_src_with_subs.sh		: script (set up work with subsets)
+-- src_first			: directory with files for work without subsets (clean version for 20.07.14)
+-- src_with_subs		: directory with files for work with subsets (lates version)

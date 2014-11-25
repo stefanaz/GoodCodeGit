@@ -1,0 +1,9 @@
+zeus://acs/z/ntup/06e/v02e/mc/root/zeusmc.aevse26.f12583.bbexp.e2006.uncut.007.root
+zeus://acs/z/ntup/06e/v02e/mc/root/zeusmc.hevse26.f12583.bbexp.e2006.uncut.003.root
+zeus://acs/z/ntup/06e/v02e/mc/root/zeusmc.hevse26.f12583.bbexp.e2006.uncut.004.root
+zeus://acs/z/ntup/06e/v02e/mc/root/zeusmc.hevse26.f12583.bbexp.e2006.uncut.005.root
+zeus://acs/z/ntup/06e/v02e/mc/root/zeusmc.hevse26.f12583.bbexp.e2006.uncut.006.root
+zeus://acs/z/ntup/06e/v02e/mc/root/zeusmc.hevue26.f12583.bbexp.e2006.uncut.001.root
+zeus://acs/z/ntup/06e/v02e/mc/root/zeusmc.hevue26.f12583.bbexp.e2006.uncut.002.root
+zeus://acs/z/ntup/06e/v02e/mc/root/zeusmc.yevse26.f12583.bbexp.e2006.uncut.008.root
+zeus://acs/z/ntup/06e/v02e/mc/root/zeusmc.yevse26.f12583.bbexp.e2006.uncut.009.root

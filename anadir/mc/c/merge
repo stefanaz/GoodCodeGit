@@ -1,0 +1,40 @@
+#!/bin/sh
+#
+# merging histogram-files
+#
+# input variables
+#
+# $1: version of data (subdir)
+# $2: path and name of merged histogram-file
+#
+if [ -z $1 ]; then
+    echo ""
+    echo "Please give data-version"
+    echo ""
+    echo "Usage: merge [version] [outputname]"
+    echo ""
+    exit
+fi
+#
+if [ -z $2 ]; then
+    echo ""
+    echo "Please give merged histogram-file"
+    echo ""
+    echo "Usage: merge [version] [outputname]"
+    echo ""
+    exit
+fi
+#
+
+for ver in 99p-00p 98e-99e 96p-97p 03p-04p 05e 06e 06p-07p
+do
+  for dir in inc dir res exgamma exproton dirrap resrap res1 res2 res3 res4 res5 res01 res02 res03 exproton01 exproton02 exproton03 exgamma01 exgamma02 exgamma03 exgamma04 exgamma05 exgamma06 exgamma07 exgamma08 exgamma09 exgamma10 exgamma11 exgamma12 dir01 dir02 dir03 dir04 dir05 dir06 dir07 dir08 dir09 dir10 dir11 dir12 dir13 dir14 dir15 dir16 dir17 dir18 dir19 dir20 dir21 dir22 dir23 dir24 dir25 dir26 dir27 dir28 dir29 dir30 dir31 dir32 dir33 dir34 dir35 dir36 dir37 dir38 dir39 dir40 dir_dijet res_dijet exp_dijet exg_dijet
+  do
+    if [ -d $ver/$dir/$1 ]; then
+      echo "Merging $ver/$dir/$1"
+      cd $ver/$dir/$1
+      ./merge $2
+      cd ../../..
+    fi
+  done
+done

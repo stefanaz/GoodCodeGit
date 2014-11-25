@@ -1,0 +1,10 @@
+zeus://acs/z/ntup/04/v02e/mc/root/zeusmc.acpr424.f10688.grape_dis_2pt_0_5k01_01.root
+zeus://acs/z/ntup/04/v02e/mc/root/zeusmc.acpx424.f10688.grape_dis_2pt_0_5k2_01_01.root
+zeus://acs/z/ntup/04/v02e/mc/root/zeusmc.acpz324.f10688.grape_dis_2pt_0_5k2_01_01.root
+zeus://acs/z/ntup/04/v02e/mc/root/zeusmc.acpz424.f10688.grape_dis_2pt_0_5k2_01_01.root
+zeus://acs/z/ntup/04/v02e/mc/root/zeusmc.fcpx424.f10688.grape_dis_2pt_0_5k01_01.root
+zeus://acs/z/ntup/04/v02e/mc/root/zeusmc.hcpu424.f10688.grape_dis_2pt_0_5k2_02_02.root
+zeus://acs/z/ntup/04/v02e/mc/root/zeusmc.hcpz324.f10688.grape_dis_2pt_0_5k01_01.root
+zeus://acs/z/ntup/04/v02e/mc/root/zeusmc.ocpu424.f10688.grape_dis_2pt_0_5k01_01.root
+zeus://acs/z/ntup/04/v02e/mc/root/zeusmc.xcpr424.f10688.grape_dis_2pt_0_5k2_01_01.root
+zeus://acs/z/ntup/04/v02e/mc/root/zeusmc.xcpu424.f10688.grape_dis_2pt_0_5k2_01_02.root

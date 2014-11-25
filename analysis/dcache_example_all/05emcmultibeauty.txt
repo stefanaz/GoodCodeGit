@@ -1,0 +1,4 @@
+zeus://acs/z/ntup/05/v02e/mc/root/zeusmc.hdtye25.f15125.multi.beauty.madgr.root
+zeus://acs/z/ntup/05/v02e/mc/root/zeusmc.hdtze25.f15125.multi.beauty.madgr.root
+zeus://acs/z/ntup/05/v02e/mc/root/zeusmc.ydtwe25.f15125.multi.beauty.madgr.root
+zeus://acs/z/ntup/05/v02e/mc/root/zeusmc.ydtxe25.f15125.multi.beauty.madgr.root

@@ -1,0 +1,4 @@
+zeus://acs/z/ntup/05/v02e/mc/root/zeusmc.aduwe25.f10688.diffvm.psi1smu.el.b4.01_03.k0.root
+zeus://acs/z/ntup/05/v02e/mc/root/zeusmc.aduye25.f10688.diffvm.psi1smu.pd.b1.06_08.k0.root
+zeus://acs/z/ntup/05/v02e/mc/root/zeusmc.fduye25.f10688.diffvm.psi1smu.pd.b1.01_08.k0.root
+zeus://acs/z/ntup/05/v02e/mc/root/zeusmc.hduwe25.f10688.diffvm.psi1smu.el.b4.02_03.k0.root

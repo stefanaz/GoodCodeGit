@@ -1,0 +1,12 @@
+zeus://acs/z/ntup/05/v02e/mc/root/zeusmc.adtxe25.f15125.bbcc.madgr.root
+zeus://acs/z/ntup/05/v02e/mc/root/zeusmc.fdtwe25.f15125.bbcc.madgr.03.root
+zeus://acs/z/ntup/05/v02e/mc/root/zeusmc.fdtye25.f15125.bbcc.madgr.01.root
+zeus://acs/z/ntup/05/v02e/mc/root/zeusmc.fdtye25.f15125.bbcc.madgr.02.root
+zeus://acs/z/ntup/05/v02e/mc/root/zeusmc.hdtwe25.f15125.bbcc.madgr.01.root
+zeus://acs/z/ntup/05/v02e/mc/root/zeusmc.hdtwe25.f15125.bbcc.madgr.02.root
+zeus://acs/z/ntup/05/v02e/mc/root/zeusmc.hdtye25.f15125.bbcc.madgr.03.root
+zeus://acs/z/ntup/05/v02e/mc/root/zeusmc.hdtye25.f15125.bbcc.madgr.04.root
+zeus://acs/z/ntup/05/v02e/mc/root/zeusmc.hdtye25.f15125.bbcc.madgr.05.root
+zeus://acs/z/ntup/05/v02e/mc/root/zeusmc.hdtze25.f15125.bbcc.madgr.01.root
+zeus://acs/z/ntup/05/v02e/mc/root/zeusmc.ydtze25.f15125.bbcc.madgr.02.root
+

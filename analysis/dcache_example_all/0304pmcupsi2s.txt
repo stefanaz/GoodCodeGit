@@ -1,0 +1,15 @@
+zeus://acs/z/ntup/04/v02e/mc/root/zeusmc.hcpr424.f10688.diffvm.ups2smu.el.k0.root
+zeus://acs/z/ntup/04/v02e/mc/root/zeusmc.hcpr424.f10688.diffvm.ups2smu.pd.k0.root
+zeus://acs/z/ntup/04/v02e/mc/root/zeusmc.hcpr424.f10688.py6.ups2s_e_mu.k0.root
+zeus://acs/z/ntup/04/v02e/mc/root/zeusmc.hcpu424.f10688.diffvm.ups2smu.el.k0.root
+zeus://acs/z/ntup/04/v02e/mc/root/zeusmc.hcpu424.f10688.diffvm.ups2smu.pd.k0.root
+zeus://acs/z/ntup/04/v02e/mc/root/zeusmc.hcpx424.f10688.diffvm.ups2smu.el.k0.root
+zeus://acs/z/ntup/04/v02e/mc/root/zeusmc.hcpx424.f10688.diffvm.ups2smu.pd.k0.root
+zeus://acs/z/ntup/04/v02e/mc/root/zeusmc.hcpx424.f10688.py6.ups2s_e_mu.k0.root
+zeus://acs/z/ntup/04/v02e/mc/root/zeusmc.hcpz324.f10688.py6.ups2s_e_mu.k0.root
+zeus://acs/z/ntup/04/v02e/mc/root/zeusmc.hcpz424.f10688.diffvm.ups2smu.pd.k0.root
+zeus://acs/z/ntup/04/v02e/mc/root/zeusmc.ocpz424.f10688.py6.ups2s_e_mu.k0.root
+zeus://acs/z/ntup/04/v02e/mc/root/zeusmc.ycpu424.f10688.py6.ups2s_e_mu.k0.root
+zeus://acs/z/ntup/04/v02e/mc/root/zeusmc.ycpz324.f10688.diffvm.ups2smu.el.k0.root
+zeus://acs/z/ntup/04/v02e/mc/root/zeusmc.ycpz324.f10688.diffvm.ups2smu.pd.k0.root
+zeus://acs/z/ntup/04/v02e/mc/root/zeusmc.ycpz424.f10688.diffvm.ups2smu.el.k0.root

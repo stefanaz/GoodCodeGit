@@ -1,0 +1,12 @@
+zeus://acs/z/ntup/06e/v02e/mc/root/zeusmc.aevse26.f10688.grape_ela_2pt_0_5k07_09.root
+zeus://acs/z/ntup/06e/v02e/mc/root/zeusmc.hevse26.f10688.grape_ela_2pt_0_5k01_09.root
+zeus://acs/z/ntup/06e/v02e/mc/root/zeusmc.hevse26.f10688.grape_ela_2pt_0_5k02_09.root
+zeus://acs/z/ntup/06e/v02e/mc/root/zeusmc.hevse26.f10688.grape_ela_2pt_0_5k03_09.root
+zeus://acs/z/ntup/06e/v02e/mc/root/zeusmc.hevse26.f10688.grape_ela_2pt_0_5k04_09.root
+zeus://acs/z/ntup/06e/v02e/mc/root/zeusmc.hevse26.f10688.grape_ela_2pt_0_5k05_09.root
+zeus://acs/z/ntup/06e/v02e/mc/root/zeusmc.hevse26.f10688.grape_ela_2pt_0_5k06_09.root
+zeus://acs/z/ntup/06e/v02e/mc/root/zeusmc.hevue26.f10688.grape_ela_2pt_0_5k03_03.root
+zeus://acs/z/ntup/06e/v02e/mc/root/zeusmc.oevse26.f10688.grape_ela_2pt_0_5k08_09.root
+zeus://acs/z/ntup/06e/v02e/mc/root/zeusmc.xevue26.f10688.grape_ela_2pt_0_5k01_03.root
+zeus://acs/z/ntup/06e/v02e/mc/root/zeusmc.xevue26.f10688.grape_ela_2pt_0_5k02_03.root
+zeus://acs/z/ntup/06e/v02e/mc/root/zeusmc.yevse26.f10688.grape_ela_2pt_0_5k09_09.root
