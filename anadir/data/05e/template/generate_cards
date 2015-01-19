@@ -1,0 +1,16 @@
+#!/bin/sh
+#
+# generate cards
+#
+# $1: cards template
+#
+if [ -z $1 ]; then
+    echo ""
+    echo "Please give cards file template"
+    echo ""
+    echo "Usage: generate_cards [template]"
+    echo ""
+    exit
+fi
+#
+cardmaker.exe ANALUMI data $1 134.124 05e.cards
