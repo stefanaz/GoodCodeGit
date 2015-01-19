@@ -10,7 +10,7 @@
 #include <iostream>
 #include <fstream>
 #include <strstream>
-#include <iomanip.h>
+#include <iomanip>
 
 #ifndef GUT_GInclude
 #include <GInclude.h>

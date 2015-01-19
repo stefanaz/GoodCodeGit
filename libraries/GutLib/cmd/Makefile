@@ -67,6 +67,15 @@ LD            = g++
 LDFLAGS       = -O
 SOFLAGS       = -shared
 endif
+###
+ifeq ($(ZARCH_TYPE),i586-sl5-linux)
+CXX           = g++
+CXXFLAGS      = -O -Wall -fPIC -Wno-deprecated
+LD            = g++
+LDFLAGS       = -O
+SOFLAGS       = -shared
+endif
+###
 ifeq ($(ZARCH_TYPE),MacOSX)
 CXX           = c++
 CXXFLAGS      = -O -pipe -Wall

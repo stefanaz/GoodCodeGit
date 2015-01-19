@@ -37,8 +37,9 @@ analysis/dcache/temp/
 
 ### log ignore : 
 #log/
-/libraries/GutLib/
-/libraries/
-!/libraries/GutLib/src/
-!/libraries/GutLib/inc/
-!/libraries/GutLib/diff_sub_modes/
+#/libraries/GutLib/
+libraries/GutLib/dict
+#/libraries/
+#!/libraries/GutLib/src/
+#!/libraries/GutLib/inc/
+#!/libraries/GutLib/diff_sub_modes/
