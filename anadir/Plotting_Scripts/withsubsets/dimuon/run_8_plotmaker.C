@@ -27,8 +27,8 @@ using namespace std;
 // // plot_8_plots_sum_subset("h_Neventsubset", 0.0,24.,1,0, "Subsets N");
 
 // plot_8_plots("h_Neventsubset", 0.0,33.,1,0,0, "Nevnt Subsets", false);
-// plot_8_plots_sum("h_Neventsubset", 0.0,34.,1,0, "Nevnt Subsets", true);
-//plot_8_plots_sum_nis("h_Neventsubset", 0.0,34.,1,0, "Nevnt Subset", true);
+// plot_8_plots_sum("h_Neventsubset", 0.0,34.,1,0, "", true);
+plot_8_plots_sum_nis("h_Neventsubset", 0.0,34.,1,0, "Nevnt Subset", true);
 // plot_8_plots_sum_for_subs("h_Neventsubset", 0.0,34.,1,0, "Nevnt Subsets", true);
 
 /*
@@ -85,7 +85,7 @@ plot_8_plots_sum("h_multiplicity", 0.0,12.,1,0, "Track multiplicity");
 // plot_8_plots_sum_with_thesis("h_sphericity", 0.,1.0,2,0, "Sph", false);
 // plot_8_plots_sum_with_thesis("h_isotropy", 0.,1.0,2,0, "#Delta_{B} (isotropy)", false);
 // plot_8_plots_sum_with_thesis("h_Q2Prime", 0.,1000.,2,0, "Q'^{2}", false);
-plot_8_plots_sum_with_thesis("h_multiplicity", 0.,80.0,1,0, "N_{band}", false);
+// plot_8_plots_sum_with_thesis("h_multiplicity", 0.,80.0,1,0, "N_{band}", false);
 
 /// Checking: 
 // plot_8_plots("h_dimuq2si", 0.01,10000.,80,1,1, "Q2");

@@ -15,7 +15,7 @@ using namespace std;
 
 /// (from SECVTX part! ):
 // DL distributions
-plot_DL_distributions("h_dl2","h_dl2_sign",40, 30, true);
+plot_DL_distributions("h_dl2_171","h_dl2_sign_171",40, 30, true);
 // plot_DL_distributions_ls("h_dl2","h_dl2_sign", 30, 30);
 // plot_DL_distributions_us("h_dl2","h_dl2_sign", 30, 30);
 // plot_8_plots_sum("h_dl2_sign", -15,15,1,1, "S = L_{XY}/#sigma_{L_{XY}}", true);
@@ -23,8 +23,8 @@ plot_DL_distributions("h_dl2","h_dl2_sign",40, 30, true);
 ///
 // ( name of vars, rangemin, rangemax, Rebinning, LogY, LogX, NameXaxes, inst_bool)
 
-// plot_8_plots("h_nrsecvtx", 0.0,10.,1,0,0, "Nr. Sec Vtx", false);
-// plot_8_plots_sum("h_nrsecvtx", 0.0,10.,1,0, "Nr. Sec Vtx", false);
+// plot_8_plots("h_nrsecvtx", 0.0,10.,1,0,0, "Nr. Sec Vtx", true);
+// plot_8_plots_sum("h_nrsecvtx_3", 0.0,10.,1,0, "Nr. Sec Vtx", false);
 // // 
 // plot_8_plots("h_vtxmass", 0.0,10.,5,0,0, "m_{Sec. vtx} [GeV]", false);
 // plot_8_plots_sum("h_vtxmass", 0.0,10.,5,1, "m_{Sec. vtx} [GeV]", false);
@@ -35,8 +35,8 @@ plot_DL_distributions("h_dl2","h_dl2_sign",40, 30, true);
 // plot_8_plots("h_multiplicity", 0.0,12.,1,0,0, "Track multiplicity",false);
 // plot_8_plots_sum("h_multiplicity", 0.0,12.,1,0, "Track multiplicity", false);
 /// DL
-// plot_8_plots("h_dl2_sign", -15,15,1,1,0, "S = L_{XY}/#sigma_{L_{XY}}", false);
-// plot_8_plots("h_dl2", -1,1,5,1,0, "L_{XY}", false);
+// plot_8_plots("h_dl2_sign", -25,25,1,1,0, "S = L_{XY}/#sigma_{L_{XY}}", true);
+// plot_8_plots("h_dl2", -2,2,5,1,0, "L_{XY}", false);
 
 /// DL_mvtx
 // plot_8_plots("h_dl2_mvtx1_sign", -15,15,1,1,0, "S = L_{XY}/#sigma_{L_{XY}}", false);

@@ -599,7 +599,7 @@ C general switch for generation of control histos
 MUON-CONTROL ON
 C
 C cut on number of reconstructed muons, if 0, muon id is switched off
-MUON-NCUT 1
+MUON-NCUT 2
 C
 C Flag to fill all muons in histos
 C

@@ -1,0 +1,5 @@
+Rint.Logon: ~/rootlogon.C
+
+Unix.*.Root.MacroPath: .:$GUTCODEDIR/root-macros:$GUTCODEDIR/root-macros/comparisons:$GUTCODEDIR/root-macros/cross_sections:$GUTCODEDIR/root-macros/nlo:$GUTCODEDIR/root-macros/impact_parameter:$GUTCODEDIR/root-macros/jetweb:$GUTCODEDIR/root-macros/muon_efficiencies:$GUTCODEDIR/root-macros/plots:$GUTCODEDIR/root-macros/ptrel_corrections:$GUTCODEDIR/root-macros/ptrel_plots:$GUTCODEDIR/root-macros/tests:$GUTCODEDIR/root-macros/trigger_corrections:$GUTCODEDIR/root-macros/utils:$(ROOTSYS)/macros
+
+Root.ShowPath:           false

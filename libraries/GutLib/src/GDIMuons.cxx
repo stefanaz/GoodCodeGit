@@ -1020,11 +1020,11 @@ Nsubs_351 = -99;
 Nsubs_352 = -99;
 
 
-
+// if (gDIMuons->GetAllCuts()) {cout<<"!!!check = "<<gMuons->GetNMuons()*input<<"	Evntnr = "<<gData->Geteventnr()<<" Runnr = "<<gData->Getrunnr()<<endl;}
 
 // cout<<"Check_30_07_14"<<gHeader->GetWeight()<<endl;
 
-		if ( /*Evnr_ck != gData->Geteventnr() &&*/gCards->GetMUONNCut() ==3  /*gMuons->GetNMuons() ==3*/) {
+		if ( /*Evnr_ck != gData->Geteventnr() &&*/gCards->GetMUONNCut() ==3/*(gMuons->GetNMuons()*input >=3)*//*1==1*/) {
 
 if ( gData->Getkt_njet_a() == 0 )
 	{case_var03 = true;H_temp_subsets->SetBinContent(3,H_temp_subsets->GetBinContent(3)+input);} 	else 		//13
@@ -1043,7 +1043,7 @@ if ( gData->Getkt_njet_a() > 2  )
 		}  else 
 
 ///
-		if ( /*Evnr_ck != gData->Geteventnr() &&*/ gCards->GetMUONNCut() ==2/*gMuons->GetNMuons() ==2*/) {
+		if (  /*gCards->GetMUONNCut() ==2*/gCards->GetMUONNCut() ==2/*( (gMuons->GetNMuons()*input) >=2 ) && ( (gMuons->GetNMuons()*input) <3 )*/ /* 1==1*/) {
 
 if ( (gData->Getkt_njet_a() == 0) &&  (dimuon->GetInvMass() >4. ) )
 	{case_var01 = true; H_temp_subsets->SetBinContent(1,H_temp_subsets->GetBinContent(1)+input);} else 		//11
@@ -7014,10 +7014,11 @@ if (gData->Getvtxsec_mass(i) > 3.5)
 { FillHistosSubsets(dimuon, fGeneralDL2_Sign_mvtx8, fGeneralDL2_Sign_mvtx8_is_lu, fGeneralDL2_Sign_mvtx8_is_ll, fGeneralDL2_Sign_mvtx8_is_hu, fGeneralDL2_Sign_mvtx8_is_hl, fGeneralDL2_Sign_mvtx8_nis_lu, fGeneralDL2_Sign_mvtx8_nis_ll, fGeneralDL2_Sign_mvtx8_nis_hu, fGeneralDL2_Sign_mvtx8_nis_hl, fSecvtx_DL2_sign); }
 
 
-///
+/// !!!
 
 FillHistosSubsets(dimuon, fGeneralDL2_Sign, fGeneralDL2_Sign_is_lu, fGeneralDL2_Sign_is_ll, fGeneralDL2_Sign_is_hu, fGeneralDL2_Sign_is_hl, fGeneralDL2_Sign_nis_lu, fGeneralDL2_Sign_nis_ll, fGeneralDL2_Sign_nis_hu, fGeneralDL2_Sign_nis_hl, fSecvtx_DL2_sign);
 
+// gMuons->GetBarrelMuons()+gMuons->GetRearMuons()+gMuons->GetForwardMuons()
 
 /// For events with 0 jets
 	if (case_var01) { 

@@ -141,7 +141,7 @@ Int_t Histogramm_Extraction_Is(Bool_t highmass=true, Bool_t autoquit=false){
   Double_t dim_fl_exc = 1.0;
    
   if (scales_from_fit)Double_t MC_scale_b = MC_scale_b_fit; else
-  if(!plot_diffxsec)  Double_t MC_scale_b = /*1.92534*//*1.85*//*1.68002*//*1.42874*//*1.5227*//*1.70149*//*1.982164*//*1.49414*//*0.615674*/1.29276;         // tuning 080116 - for tot. xsec with BHadron ptb PAPERED2
+  if(!plot_diffxsec)  Double_t MC_scale_b = /*1.92534*//*1.85*//*1.68002*//*1.42874*//*1.5227*/1.70149/*1.982164*//*1.49414*//*0.615674*/;         // tuning 080116 - for tot. xsec with BHadron ptb PAPERED2
   else                Double_t MC_scale_b = 1.777;        // tuning 080116 - for differential xsecs PAPERED2, new charm 1.37
  
   if (scales_from_fit)Double_t MC_scale_c = MC_scale_c_fit; else
@@ -187,7 +187,7 @@ Int_t Histogramm_Extraction_Is(Bool_t highmass=true, Bool_t autoquit=false){
   Double_t MC_scale_bbcc   = 1.0;
 
   Double_t gluspli_up       = 0.0;                       // enhance only gluon splitting MC a bit (dirty!!)
-   Double_t MC_scale_inst    = 1.;
+   Double_t MC_scale_inst    = 2.0;
 
   if(iso_chooser == "nis" && !plot_hm) 
     {
@@ -304,13 +304,13 @@ Int_t Histogramm_Extraction_Is(Bool_t highmass=true, Bool_t autoquit=false){
   //static const Int_t obj_size_h = nfiles+20;
   //TH1D *obj[obj_size_v][obj_size_h];
 
-  TH1D *obj[10000][60];
+  TH1D *obj[1000][60];
   
   TKey *key;
 
 // initialise histogram array:
 
-  for(Int_t vorne = 0; vorne<10000; vorne++)
+  for(Int_t vorne = 0; vorne<1000; vorne++)
     {
       for(Int_t hinten = 0; hinten<60; hinten++) obj[vorne][hinten] = 0;
     }
