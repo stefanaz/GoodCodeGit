@@ -57,14 +57,21 @@ CXXFLAGS      = -O -Wall -fPIC
 LD            = g++
 LDFLAGS       = -O
 endif
-###
+####
 ifeq ($(ZARCH_TYPE),i586-sl5-linux)
 CXX           = g++
 CXXFLAGS      = -O -Wall -fPIC
 LD            = g++
 LDFLAGS       = -O
 endif
-###
+##
+ifeq ($(ZARCH_TYPE),i586-sl6-linux)
+CXX           = g++
+CXXFLAGS      = -O -Wall -fPIC
+LD            = g++
+LDFLAGS       = -O
+endif
+####
 ifeq ($(ZARCH_TYPE),MacOSX)
 # MacOS X with cc (GNU cc 2.95.2)
 CXX           = c++
