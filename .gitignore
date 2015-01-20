@@ -4,27 +4,31 @@
 *.so
 *~
 *.txt
+*.e*
+*.o*
 
-/CVS/
+CVS/
 
 ### datadir ignore :
 /datadir/
+!createdata_links.sh
 
 ### anadir ignore:
 /anadir/*.root
-/anadir/*/
+#/anadir/*/
 
-!/anadir/data/
-!/anadir/mc/
-!/anadir/Extraction_Scripts/
-!/anadir/Plotting_Scripts/
-!/anadir/analysis_macros/
+#!/anadir/data/
+#!/anadir/mc/
+#!/anadir/Extraction_Scripts/
+#!/anadir/Plotting_Scripts/
+#!/anadir/analysis_macros/
 
-/anadir/data/0*/
-!/anadir/data/0*/template
 
-/anadir/mc/*/*/*/
-!/anadir/mc/*/*/*/template
+#/anadir/data/0*/
+#!/anadir/data/0*/template
+
+#/anadir/mc/*/*/*/
+#!/anadir/mc/*/*/*/template
 
 ### analysis ignore :
 
@@ -36,7 +40,7 @@ analysis/dict/
 analysis/dcache/temp/
 
 ### log ignore : 
-log/
+/log/
 /libraries/GutLib/dict
 /libraries/GutLib/obj
 /libraries/GutLib/lib
